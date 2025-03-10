@@ -1,4 +1,3 @@
-# functions/csv_inference.py
 import os
 import math
 import torch
