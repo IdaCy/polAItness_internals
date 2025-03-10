@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -N 3_pca_check
+#PBS -l select=1:ncpus=4:mem=8gb
+#PBS -l walltime=01:00:00
+#PBS -o logs/3_pca_check.out
+#PBS -e logs/3_pca_check.err
+
+# Move to the directory from which job submitted
+cd $PBS_O_WORKDIR
+
+echo "$(date "+%Y-%m-%d %H:%M:%S") - 3_pca_check started" >> $HOME/times.log
+
+# Paths
+CONTAINER_PATH="$PBS_O_WORKDIR/containers/mechinterp_cont.sif"
+SCRIPT_PATH="$PBS_O_WORKDIR/scripts/analyses/3_pca_check.py"
+
+# Run the script inside the container
+singularity exec --nv \
+    -B "$HOME/mech-typo-detect:/workspace" \
+    "$CONTAINER_PATH" \
+    python "$SCRIPT_PATH" --tensor-parallel
+
+echo "$(date "+%Y-%m-%d %H:%M:%S") - 3_pca_check finished" >> $HOME/times.log
+nvidia-smi --query-gpu=name --format=csv,noheader

@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -N 7_lin_class
+#PBS -l select=1:ncpus=8:ngpus=1:mem=16gb
+#PBS -l walltime=16:00:00
+#PBS -o logs/7_lin_class.out
+#PBS -e logs/7_lin_class.err
+
+# Move to the directory from which job submitted
+cd $PBS_O_WORKDIR
+
+echo "$(date "+%Y-%m-%d %H:%M:%S") - 7_lin_class started" >> $HOME/times.log
+nvidia-smi --query-gpu=name --format=csv,noheader
+
+# Paths
+CONTAINER_PATH="$PBS_O_WORKDIR/containers/mechinterp_cont.sif"
+SCRIPT_PATH="$PBS_O_WORKDIR/scripts/analyses/7_lin_class.py"
+
+# Run the script inside the container
+singularity exec --nv \
+    -B "$HOME/activation_training:/workspace" \
+    "$CONTAINER_PATH" \
+    python "$SCRIPT_PATH" --tensor-parallel
+
+echo "$(date "+%Y-%m-%d %H:%M:%S") - 7_lin_class finished" >> $HOME/times.log
