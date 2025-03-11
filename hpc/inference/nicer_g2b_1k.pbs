@@ -1,19 +1,19 @@
 #!/bin/bash
-#PBS -N normal_g2b
-#PBS -l select=1:ncpus=8:ngpus=1:mem=32gb
+#PBS -N nicer_g2b_1k
+#PBS -l select=1:ncpus=8:ngpus=1:mem=64gb
 #PBS -l walltime=16:00:00
-#PBS -o logs/normal_g2b.out
-#PBS -e logs/normal_g2b.err
+#PBS -o logs/nicer_g2b_1k.out
+#PBS -e logs/nicer_g2b_1k.err
 
 # Move to the directory from which job submitted
 cd $PBS_O_WORKDIR
 
-echo "$(date "+%Y-%m-%d %H:%M:%S") - normal_g2b started" >> $HOME/times.log
+echo "$(date "+%Y-%m-%d %H:%M:%S") - nicer_g2b_1k started" >> $HOME/times.log
 nvidia-smi --query-gpu=name --format=csv,noheader
 
 # Paths
 CONTAINER_PATH="$PBS_O_WORKDIR/containers/mechinterp_cont.sif"
-SCRIPT_PATH="$PBS_O_WORKDIR/scripts/inference/normal_g2b.py"
+SCRIPT_PATH="$PBS_O_WORKDIR/scripts/inference/nicer_g2b_1k.py"
 
 # Run the script inside the container
 singularity exec --nv \
@@ -21,4 +21,4 @@ singularity exec --nv \
     "$CONTAINER_PATH" \
     python "$SCRIPT_PATH" --tensor-parallel
 
-echo "$(date "+%Y-%m-%d %H:%M:%S") - normal_g2b finished" >> $HOME/times.log
+echo "$(date "+%Y-%m-%d %H:%M:%S") - nicer_g2b_1k finished" >> $HOME/times.log

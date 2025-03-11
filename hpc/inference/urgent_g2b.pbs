@@ -13,11 +13,11 @@ nvidia-smi --query-gpu=name --format=csv,noheader
 
 # Paths
 CONTAINER_PATH="$PBS_O_WORKDIR/containers/mechinterp_cont.sif"
-SCRIPT_PATH="$PBS_O_WORKDIR/scripts/sim_inference/urgent_g2b.py"
+SCRIPT_PATH="$PBS_O_WORKDIR/scripts/inference/urgent_g2b.py"
 
 # Run the script inside the container
 singularity exec --nv \
-    -B "$HOME/activation_training:/workspace" \
+    -B "$HOME/polAItness_internals:/workspace" \
     "$CONTAINER_PATH" \
     python "$SCRIPT_PATH" --tensor-parallel
 
