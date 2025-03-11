@@ -72,7 +72,7 @@ def load_activations(pt_file):
     return torch.load(pt_file)
 
 
-# ====================== NICE-WORD DETECTION (ROBUST) ======================
+# ====================== NICE-WORD DETECTION ======================
 
 def find_nice_tokens_subword(decoded_tokens, nice_words):
     """
@@ -372,9 +372,9 @@ def main():
                 attn_sum_array = np.array(row["attn_sum"], dtype=np.float32)  # shape [seq_len]
                 attn_mean_array = np.array(row["attn_mean"], dtype=np.float32)
 
-                # For demonstration, let's do "avg attention on nice tokens" for sum and mean
+                # For now, doing "avg attention on nice tokens" for sum and mean
                 # We can do many variants if you want, e.g. "attention *maybe* all? 
-                # But let's keep it consistent with your approach: sum across j => how much token i attends 
+                # But now keeping it consistent with approach: sum across j => how much token i attends 
                 # to the entire sequence. Then we average those i's that are "nice."
                 # If you actually want "which tokens are receiving attention," you'd do a different dimension.
                 # We'll store it anyway:
@@ -522,7 +522,7 @@ def main():
             plt.savefig(os.path.join(OUTPUT_DIR, f"box_layer{layer}_{prompt_type}_sum_nice_byhead.png"))
             plt.close()
 
-    # You could do the same for avg_mean_nice, avg_sum_math, etc. 
+    # Could do the same for avg_mean_nice, avg_sum_math, etc. 
     # Just replicate with different columns.
 
     print("All plots saved to:", OUTPUT_DIR)
