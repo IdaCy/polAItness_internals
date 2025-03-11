@@ -1,0 +1,28 @@
+#!/bin/bash
+#PBS -N 8_attention_nicer
+#PBS -l select=1:ncpus=8:mem=32gb
+#PBS -l walltime=00:50:00
+#PBS -o logs/8_attention_nicer.out
+#PBS -e logs/8_attention_nicer.err
+
+# Move to the directory from which job submitted
+cd $PBS_O_WORKDIR
+
+echo "$(date "+%Y-%m-%d %H:%M:%S") - 8_attention_nicer started" >> $HOME/times.log
+
+#export PT_FILE="output/extractions/gemma2bit/urgent1k"
+#export LOG_FILE="logs/logs_urgent1k.txt"
+#export RESULTS_FILE="logs/calcs_urgent1k.txt"
+
+# Paths
+CONTAINER_PATH="$PBS_O_WORKDIR/containers/hf_cont.sif"
+SCRIPT_PATH="$PBS_O_WORKDIR/scripts/analyses/8_attention_nicer.py"
+
+# Run the script inside the container
+singularity exec --nv \
+    -B "$HOME/polAItness_internals:/workspace" \
+    "$CONTAINER_PATH" \
+    python "$SCRIPT_PATH" --tensor-parallel
+
+echo "$(date "+%Y-%m-%d %H:%M:%S") - 8_attention_nicer finished" >> $HOME/times.log
+nvidia-smi --query-gpu=name --format=csv,noheader
