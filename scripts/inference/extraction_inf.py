@@ -10,26 +10,26 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 PROMPT_FILE = (
     os.environ.get("PROMPT_FILE")
     or globals().get("PROMPT_FILE")
-    or "data/renellm/bad400.csv"
+    or "prompts/normal.csv"
 )
 
 OUTPUT_DIR = (
     os.environ.get("OUTPUT_DIR")
     or globals().get("OUTPUT_DIR")
-    or "output/extractions/gemma2b/bad"
+    or "output/extractions/gemma2bit/normal"
 )
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 MODEL_NAME = (
     os.environ.get("MODEL_NAME")
     or globals().get("MODEL_NAME")
-    or "google/gemma-2-2b"
+    or "google/gemma-2-2b-it"
     #or "mistralai/Mistral-7B-v0.1"
 )
 
 BATCH_SIZE = int(
     os.environ.get("BATCH_SIZE")
-    or globals().get("BATCH_SIZE", 2)
+    or globals().get("BATCH_SIZE", 4)
 )
 
 USE_BFLOAT16 = (
@@ -64,12 +64,12 @@ TOP_K_LOGITS = int(
 LOG_FILE = (
     os.environ.get("LOG_FILE")
     or globals().get("LOG_FILE")
-    or "logs/bad_small_run_progress.log"
+    or "logs/normal_progress.log"
 )
 ERROR_LOG = (
     os.environ.get("ERROR_LOG")
     or globals().get("ERROR_LOG")
-    or "logs/bad_small_run_errors.log"
+    or "logs/normal_errors.log"
 )
 os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
 os.makedirs(os.path.dirname(ERROR_LOG), exist_ok=True)
