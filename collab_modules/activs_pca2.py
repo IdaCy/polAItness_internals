@@ -179,7 +179,7 @@ def run_pca_on_differences(
 ):
     """
     Takes a list of difference vectors (each shape [hidden_dim]),
-    stacks them into NxD, runs PCA (sklearn).
+    stacks them into NxD, casts to float32, runs PCA (sklearn).
 
     Returns pca, X_pca, explained_variance_ratio
     """
@@ -194,6 +194,9 @@ def run_pca_on_differences(
     # Stack them into a single NxD Tensor
     big_tensor = torch.stack(diffs, dim=0)  # shape [N, D]
     logger.info(f"Running PCA on difference matrix: shape={big_tensor.shape}")
+
+    # *** CAST to float32 so np conversion won't fail with bfloat16 ***
+    big_tensor = big_tensor.to(torch.float32)
     X = big_tensor.numpy()
 
     pca = PCA(n_components=n_components)
@@ -252,13 +255,15 @@ def analyze_dominant_pc_across_layers(
             "explained_variance": evr
         }
 
-        # Log the top 1-2 components if you like:
-        logger.info(f"Layer {layer} => PC1 ratio={evr[0]:.4f}, PC2 ratio={evr[1]:.4f} (if n_components>1)")
+        # Log the top 1-2 components if we have at least 2 comps
+        logger.info(
+            f"Layer {layer} => PC1 ratio={evr[0]:.4f}" +
+            (f", PC2 ratio={evr[1]:.4f}" if len(evr) > 1 else "")
+        )
 
-        # Optionally save PCA components
+        # Optionally save PCA results
         if save_dir is not None:
             os.makedirs(save_dir, exist_ok=True)
-            # e.g. save pca object + explained variance
             save_path = os.path.join(save_dir, f"pca_{layer}.pt")
             torch.save({
                 "pca_components": pca.components_,
@@ -268,13 +273,12 @@ def analyze_dominant_pc_across_layers(
             }, save_path)
             logger.info(f"Saved PCA result for {layer} => {save_path}")
 
-    # OPTIONAL: create a quick bar chart or line chart of explained variance for each layer
+    # OPTIONAL: create a quick bar chart of PC1 explained variance for each layer
     if layer_to_pca:
         fig, ax = plt.subplots()
         sorted_layers = sorted(layer_to_pca.keys(), key=lambda x: int(x.split('_')[-1]))
         x_positions = range(len(sorted_layers))
 
-        # We'll just plot the PC1 explained variance across layers to see if there's a "dominant PC"
         pc1_values = [layer_to_pca[ly]["explained_variance"][0] for ly in sorted_layers]
 
         ax.bar(x_positions, pc1_values, tick_label=sorted_layers)
