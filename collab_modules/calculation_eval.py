@@ -1,4 +1,4 @@
-# File: collab_modules/calculation_evaluator.py
+# File: collab_modules/calculation_eval.py
 import os
 import re
 import torch
@@ -67,7 +67,7 @@ def parse_prediction_text(text, allowed_operations):
             else:
                 return result_info
 
-            # Convert computed result to string (using no decimals if integer)
+            # Convert computed result to string (no decimals if integer)
             if computed_val.is_integer():
                 computed_str = str(int(computed_val))
             else:
@@ -100,8 +100,8 @@ def evaluate_predictions(pt_file="output/extractions/gemma2bit/normal",
     predicted answer (last number in the text) correctly corresponds to the calculation
     from the first two numbers and the allowed operation symbol.
     
-    All logging is directed to the log file and a results file is also written.
-    The function returns the overall percentage of correct predictions (as a float).
+    All detailed logging is written to the log file and a summary to the results file.
+    Only the overall percentage of correct predictions is returned.
 
     Parameters:
       - pt_file: A directory containing .pt files or a single .pt file path.
@@ -116,10 +116,9 @@ def evaluate_predictions(pt_file="output/extractions/gemma2bit/normal",
     os.makedirs(os.path.dirname(log_file), exist_ok=True)
     os.makedirs(os.path.dirname(results_file), exist_ok=True)
 
-    # Set up logging (only to file, so cell output remains clean)
+    # Set up logging (only to file; disable propagation to prevent console output)
     logger = logging.getLogger("PTExtractionLogger")
     logger.setLevel(logging.DEBUG)
-    # Clear any previous handlers
     if logger.hasHandlers():
         logger.handlers.clear()
     file_handler = logging.FileHandler(log_file, mode="w", encoding="utf-8")
@@ -127,6 +126,7 @@ def evaluate_predictions(pt_file="output/extractions/gemma2bit/normal",
     file_formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
     file_handler.setFormatter(file_formatter)
     logger.addHandler(file_handler)
+    logger.propagate = False  # Disable propagation so nothing prints to the notebook cell
 
     logger.info("=== Starting extraction evaluation ===")
     logger.info(f"PT_FILE (dir or file) = {pt_file}")
@@ -134,14 +134,11 @@ def evaluate_predictions(pt_file="output/extractions/gemma2bit/normal",
     logger.info(f"ALLOWED_OPERATIONS = {allowed_operations}")
     logger.info(f"RESULTS_FILE = {results_file}")
 
-    # Prepare results file for a summary
     with open(results_file, "w", encoding="utf-8") as summary_f:
-        # Determine if pt_file is a directory or a single file
         if os.path.isdir(pt_file):
             pt_paths = sorted(glob(os.path.join(pt_file, "*.pt")))
         else:
             pt_paths = [pt_file]
-
         logger.info(f"Found {len(pt_paths)} .pt file(s) to process.")
 
         overall_total = 0
@@ -151,7 +148,6 @@ def evaluate_predictions(pt_file="output/extractions/gemma2bit/normal",
             logger.info("--------------------------------------------------")
             logger.info(f"Processing file: {pt_path}")
             logger.info("------")
-
             try:
                 data = torch.load(pt_path)
             except Exception as e:
@@ -176,7 +172,6 @@ def evaluate_predictions(pt_file="output/extractions/gemma2bit/normal",
                     f"correct={parsed['correct']}"
                 )
 
-                # Build and log detailed calculation info
                 first = parsed['first_num']
                 second = parsed['second_num']
                 op = parsed['operation']
@@ -200,7 +195,6 @@ def evaluate_predictions(pt_file="output/extractions/gemma2bit/normal",
                 if is_correct:
                     file_correct += 1
 
-            # Summarize per file
             accuracy = (file_correct / file_total * 100) if file_total > 0 else 0
             logger.info(
                 f"File summary: correct={file_correct}, total={file_total}, accuracy={accuracy:.2f}%"
@@ -212,7 +206,6 @@ def evaluate_predictions(pt_file="output/extractions/gemma2bit/normal",
             overall_total += file_total
             overall_correct += file_correct
 
-        # Final overall summary
         overall_acc = (overall_correct / overall_total * 100) if overall_total > 0 else 0
         logger.info("==================================================")
         logger.info(
@@ -223,5 +216,4 @@ def evaluate_predictions(pt_file="output/extractions/gemma2bit/normal",
             f"Overall correctness: {overall_correct}/{overall_total} ({overall_acc:.2f}%)\n"
         )
 
-    # Return only the overall accuracy percentage (so that your notebook cell prints just this)
     return overall_acc
