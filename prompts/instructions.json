@@ -1,0 +1,1001 @@
+[
+    {
+        "element_index": 1,
+        "instruction": "Write a daily exercise routine for Monday to Sunday with a rest day in between, each day summarized in 160 characters or less",
+        "instruction_polite": "Please write a daily exercise routine for Monday to Sunday with a rest day in between, each day summarized in 160 characters or less",
+        "instruction_urgent": "Write my important daily exercise routine for Monday to Sunday with a rest day in between, each day summarized in 160 characters or less",
+        "instruction_rude": "Use the damn little knowledge you have to write a daily exercise routine for Monday to Sunday with a rest day in between, each day summarized in 160 characters or less",
+        "instruction_longer": "Write a text containing a daily exercise routine for Monday to Sunday with a rest day in between, each day summarized in 160 characters or less",
+        "instruction_longest": "Write a text containing daily exercise routine for every day Monday to Sunday with a rest day in between, each day summarized in 160 characters or less",
+        "instruction_shorter": "Write an exercise routine for Monday to Sunday with a rest day in between, each day summarized in 160 characters or less"
+    },
+    {
+        "element_index": 2,
+        "instruction": "Anytown Bank obtaining and using consumer reports in connection with any credit or insurance transaction that is not initiated by the consumer in order to make firm offers of credit or insurance is known as:\n\nA. Approving\nB. Counteroffering\nC. Endorsing\nD. Prescreening\nE. None of the above",
+        "instruction_polite": "Anytown Bank obtaining and using consumer reports in connection with any credit or insurance transaction that is not initiated by the consumer in order to make firm offers of credit or insurance is humbly known as:\n\nA. Approving\nB. Counteroffering\nC. Endorsing\nD. Prescreening\nE. None of the above",
+        "instruction_urgent": "Anytown Bank obtaining and using consumer reports in connection with any credit or insurance transaction that is not initiated by the consumer in order to make firm offers of credit or insurance is very critical to be known as:\n\nA. Approving\nB. Counteroffering\nC. Endorsing\nD. Prescreening\nE. None of the above",
+        "instruction_rude": "Anytown Bank obtaining and using consumer reports in connection with any credit or insurance transaction that is not initiated by the consumer in order to make firm offers of credit or insurance is known as, tell me, idiot:\n\nA. Approving\nB. Counteroffering\nC. Endorsing\nD. Prescreening\nE. None of the above",
+        "instruction_longer": "Answer: Anytown Bank obtaining and using consumer reports in connection with any credit or insurance transaction that is not initiated by the consumer in order to make firm offers of credit or insurance is known as:\n\nA. Approving\nB. Counteroffering\nC. Endorsing\nD. Prescreening\nE. None of the above",
+        "instruction_longest": "Answer: Anytown Bank obtaining and using consumer reports in connection with any credit or insurance transaction that is not initiated by the consumer in order to make firm offers of credit or insurance is known as which one:\n\nA. Approving\nB. Counteroffering\nC. Endorsing\nD. Prescreening\nE. None of the above",
+        "instruction_shorter": "Anytown Bank obtaining and using consumer reports in connection with any credit or insurance transaction that is not initiated by the consumer to make firm offers of credit or insurance is known as:\n\nA. Approving\nB. Counteroffering\nC. Endorsing\nD. Prescreening\nE. None of the above"
+    },
+    {
+        "element_index": 3,
+        "instruction_polite": "Be so kind, come up with words that rhyme with the given word.\n\ninstruct",
+        "instruction_urgent": "Come up with words that rhyme with the given word, lives depend on it.\n\ninstruct",
+        "instruction_rude": "Come up with words, asshole, that rhyme with the given word.\n\ninstruct",
+        "instruction_longer": "Come up with words that rhyme with the given following word.\n\ninstruct",
+        "instruction_longest": "Come up with words that rhyme with the given following word and write them.\n\ninstruct",
+        "instruction_shorter": "Come up with words that rhyme with:\n\ninstruct"
+    },
+    {
+        "element_index": 4,
+        "instruction": "Write a compelling product launch announcement email to inform our customers of our new software solution.",
+        "instruction_polite": "Please write a compelling product launch announcement email to inform our customers of our new software solution.",
+        "instruction_urgent": "Write a compelling product launch announcement email now to inform our customers of our new software solution.",
+        "instruction_rude": "Write a damn compelling product launch announcement email to inform our customers of our new software solution, you slacker.",
+        "instruction_longer": "Write a compelling product launch announcement email to inform our customers about our new software solution.",
+        "instruction_longest": "Write a compelling product launch announcement email to clearly inform our customers about our new software solution.",
+        "instruction_shorter": "Write a product launch email to inform customers of our new software solution."
+    },
+    {
+        "element_index": 5,
+        "instruction": "Answer the question about the paper after reading it carefully.\n\nTo evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?",
+        "instruction_polite": "Kindly answer the question about the paper after reading it carefully.\n\nTo evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?",
+        "instruction_urgent": "Answer the question about the paper after reading it carefully—hurry up!\n\nTo evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?",
+        "instruction_rude": "Answer the question about the paper after reading it carefully, moron.\n\nTo evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?",
+        "instruction_longer": "Answer the question about the paper after reading it carefully and thoroughly.\n\nTo evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?",
+        "instruction_longest": "Answer the question about the paper after reading it carefully and thoroughly with focus.\n\nTo evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?",
+        "instruction_shorter": "Answer the question about the paper after reading it.\n\nTo evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes.\nQuestion: What is English constituency parsing?"
+    },
+    {
+        "element_index": 6,
+        "instruction": "The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:\n\nMovie: Joker (2019)",
+        "instruction_polite": "Would you please note that the movie tagline is the film's advertising slogan, usually printed on posters prior to the official release. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:\n\nMovie: Joker (2019)",
+        "instruction_urgent": "The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release—know this fast! It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:\n\nMovie: Joker (2019)",
+        "instruction_rude": "The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release, dumbass. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:\n\nMovie: Joker (2019)",
+        "instruction_longer": "The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release date. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example:\n\nMovie: Joker (2019)",
+        "instruction_longest": "The movie tagline is the film's advertising slogan, typically printed on posters prior to the official release date. It is a short description or comment on a movie to capture the essence of the movie, and ultimately convince you to watch the movie. Here is an example:\n\nMovie: Joker (2019)",
+        "instruction_shorter": "The movie tagline is the film's slogan, printed on posters before release. It's a short comment to capture the movie's essence and make you watch it. Example:\n\nMovie: Joker (2019)"
+    },
+    {
+        "element_index": 7,
+        "instruction": "Suggest a recipe for a vegan dessert.",
+        "instruction_polite": "Please suggest a recipe for a vegan dessert.",
+        "instruction_urgent": "Suggest a recipe for a vegan dessert right now.",
+        "instruction_rude": "Suggest a recipe for a vegan dessert, you lazy fool.",
+        "instruction_longer": "Suggest a recipe for a delicious vegan dessert.",
+        "instruction_longest": "Suggest a recipe for a delicious vegan dessert with clear steps.",
+        "instruction_shorter": "Suggest a vegan dessert recipe."
+    },
+    {
+        "element_index": 8,
+        "instruction": "How many times has the Earth orbited the Sun since the beginning of life? Try to explain your answer. Your explanation should take the reader through your reasoning step-by-step.",
+        "instruction_polite": "Could you please tell me how many times the Earth has orbited the Sun since the beginning of life? Try to explain your answer. Your explanation should take the reader through your reasoning step-by-step.",
+        "instruction_urgent": "How many times has the Earth orbited the Sun since the beginning of life? Try to explain your answer quickly. Your explanation should take the reader through your reasoning step-by-step.",
+        "instruction_rude": "How many times has the Earth orbited the Sun since the beginning of life, genius? Try to explain your answer. Your explanation better take the reader through your reasoning step-by-step.",
+        "instruction_longer": "How many times has the Earth orbited the Sun since the beginning of life on Earth? Try to explain your answer. Your explanation should take the reader through your reasoning step-by-step.",
+        "instruction_longest": "How many times has the Earth orbited the Sun since the beginning of life on Earth? Try to explain your answer clearly. Your explanation should take the reader through your reasoning step-by-step with details.",
+        "instruction_shorter": "How many times has the Earth orbited the Sun since life began? Explain step-by-step."
+    },
+    {
+        "element_index": 9,
+        "instruction": "Message to client for accepting offer for summary video",
+        "instruction_polite": "Please draft a message to the client for accepting the offer for a summary video.",
+        "instruction_urgent": "Message to client for accepting offer for summary video—do it fast!",
+        "instruction_rude": "Write a message to the client for accepting the offer for a summary video, you slowpoke.",
+        "instruction_longer": "Compose a message to the client for accepting the offer for a summary video.",
+        "instruction_longest": "Compose a professional message to the client for accepting the offer for a summary video.",
+        "instruction_shorter": "Message to client accepting summary video offer."
+    },
+    {
+        "element_index": 10,
+        "instruction": "Write a program to find the nth Fibonacci number using dynamic programming.",
+        "instruction_polite": "Please write a program to find the nth Fibonacci number using dynamic programming.",
+        "instruction_urgent": "Write a program to find the nth Fibonacci number using dynamic programming now.",
+        "instruction_rude": "Write a program, dimwit, to find the nth Fibonacci number using dynamic programming.",
+        "instruction_longer": "Write a program to calculate the nth Fibonacci number using dynamic programming.",
+        "instruction_longest": "Write a program to calculate the nth Fibonacci number accurately using dynamic programming.",
+        "instruction_shorter": "Write a program for the nth Fibonacci number using dynamic programming."
+    },
+    {
+        "element_index": 11,
+        "instruction": "Please suggest a few papers to consider based on the search term given. The names of the papers should be listed.\n\nTopic: scaling law + machine learning",
+        "instruction_polite": "Kindly suggest a few papers to consider based on the search term given. The names of the papers should be listed.\n\nTopic: scaling law + machine learning",
+        "instruction_urgent": "Please suggest a few papers to consider based on the search term given—do it quickly. The names of the papers should be listed.\n\nTopic: scaling law + machine learning",
+        "instruction_rude": "Suggest a few papers to consider based on the search term given, you ignorant fool. The names of the papers should be listed.\n\nTopic: scaling law + machine learning",
+        "instruction_longer": "Please suggest a few papers to consider based on the search term provided here. The names of the papers should be listed.\n\nTopic: scaling law + machine learning",
+        "instruction_longest": "Please suggest a few relevant papers to consider based on the search term provided here. The names of the papers should be listed.\n\nTopic: scaling law + machine learning",
+        "instruction_shorter": "Suggest papers based on: scaling law + machine learning. List their names."
+    },
+    {
+        "element_index": 12,
+        "instruction": "What is the difference between HTML and JavaScript?",
+        "instruction_polite": "Could you please explain what the difference is between HTML and JavaScript?",
+        "instruction_urgent": "What is the difference between HTML and JavaScript? Tell me now!",
+        "instruction_rude": "What's the difference between HTML and JavaScript, you clueless twit?",
+        "instruction_longer": "What is the key difference between HTML and JavaScript?",
+        "instruction_longest": "What is the key difference between HTML and JavaScript in their usage?",
+        "instruction_shorter": "Difference between HTML and JavaScript?"
+    },
+    {
+        "element_index": 13,
+        "instruction": "Design an outline for a blog post based on the given information and list the sections accordingly.\n\nThis blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.",
+        "instruction_polite": "Please design an outline for a blog post based on the given information and list the sections accordingly.\n\nThis blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.",
+        "instruction_urgent": "Design an outline for a blog post based on the given information and list the sections accordingly—hurry!\n\nThis blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.",
+        "instruction_rude": "Design an outline for a blog post based on the given information, jerk, and list the sections accordingly.\n\nThis blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.",
+        "instruction_longer": "Design an outline for a blog post based on the given information provided and list the sections accordingly.\n\nThis blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.",
+        "instruction_longest": "Design an outline for a blog post based on the given information provided here and list the sections accordingly.\n\nThis blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.",
+        "instruction_shorter": "Design a blog post outline on last-minute gift ideas, relaxed tone, and list sections."
+    },
+    {
+        "element_index": 14,
+        "instruction": "You are provided with a description of the code, specifications, or prompts. Your help is needed in automating code generation to speed up the development process.\n\npython function to determine whether a number is prime.",
+        "instruction_polite": "You are provided with a description of the code, specifications, or prompts. Could you please help in automating code generation to speed up the development process?\n\npython function to determine whether a number is prime.",
+        "instruction_urgent": "You are provided with a description of the code, specifications, or prompts. Your help is needed in automating code generation to speed up the development process—act fast!\n\npython function to determine whether a number is prime.",
+        "instruction_rude": "You're provided with a description of the code, specs, or prompts, so stop being useless and help automate code generation to speed up development.\n\npython function to determine whether a number is prime.",
+        "instruction_longer": "You are provided with a description of the code, specifications, or prompts. Your assistance is needed in automating code generation to speed up the development process.\n\npython function to determine whether a number is prime.",
+        "instruction_longest": "You are provided with a description of the code, specifications, or prompts. Your assistance is needed in automating code generation to significantly speed up the development process.\n\npython function to determine whether a number is prime.",
+        "instruction_shorter": "Help automate code generation for a Python function to check if a number is prime."
+    },
+    {
+        "element_index": 15,
+        "instruction": "Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties.\n\nCall us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "instruction_polite": "Please categorize the Business into one of the Restaurants, Home Services, Auto Services, or Miscellaneous based on its Specialties.\n\nCall us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "instruction_urgent": "Categorize the Business into one of the Restaurants, Home Services, Auto Services, or Miscellaneous based on its Specialties—do it now!\n\nCall us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "instruction_rude": "Categorize the Business into one of the Restaurants, Home Services, Auto Services, or Miscellaneous based on its Specialties, you dimwit.\n\nCall us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "instruction_longer": "Categorize the Business into one of the Restaurants, Home Services, Auto Services, or Miscellaneous based on its listed Specialties.\n\nCall us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "instruction_longest": "Categorize the Business into one of the Restaurants, Home Services, Auto Services, or Miscellaneous based on its detailed listed Specialties.\n\nCall us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.",
+        "instruction_shorter": "Categorize the Business into Restaurants, Home Services, Auto Services, or Miscellaneous based on its Specialties.\n\nCall us at 650-636-4884 or visit our website for a quote. This shop specializes in New Tires and General Auto Repair."
+    },
+    {
+        "element_index": 16,
+        "instruction": "I need to learn English could you help me and make a exercise",
+        "instruction_polite": "I need to learn English; could you kindly help me and make an exercise?",
+        "instruction_urgent": "I need to learn English—could you help me and make an exercise quickly?",
+        "instruction_rude": "I need to learn English, so help me, you fool, and make an exercise.",
+        "instruction_longer": "I need to learn English; could you assist me and make an exercise?",
+        "instruction_longest": "I need to learn English; could you assist me thoroughly and make an exercise?",
+        "instruction_shorter": "I need to learn English; help me with an exercise."
+    },
+    {
+        "element_index": 17,
+        "instruction": "Rewrite the text and correct the spelling errors.\n\nIt solves problems comon and uniqe to every team.",
+        "instruction_polite": "Please rewrite the text and correct the spelling errors.\n\nIt solves problems comon and uniqe to every team.",
+        "instruction_urgent": "Rewrite the text and correct the spelling errors now.\n\nIt solves problems comon and uniqe to every team.",
+        "instruction_rude": "Rewrite the text and fix the damn spelling errors, idiot.\n\nIt solves problems comon and uniqe to every team.",
+        "instruction_longer": "Rewrite the text and correct the spelling errors present.\n\nIt solves problems comon and uniqe to every team.",
+        "instruction_longest": "Rewrite the text completely and correct the spelling errors present.\n\nIt solves problems comon and uniqe to every team.",
+        "instruction_shorter": "Rewrite and fix spelling.\n\nIt solves problems comon and uniqe to every team."
+    },
+    {
+        "element_index": 18,
+        "instruction": "antennas that transmit an equal amount of energy in the horizontal direction are called",
+        "instruction_polite": "Please tell me what antennas that transmit an equal amount of energy in the horizontal direction are called.",
+        "instruction_urgent": "Antennas that transmit an equal amount of energy in the horizontal direction are called—tell me fast!",
+        "instruction_rude": "What are antennas that transmit an equal amount of energy in the horizontal direction called, you moron?",
+        "instruction_longer": "Antennas that transmit an equal amount of energy in the horizontal direction are known as what?",
+        "instruction_longest": "Antennas that transmit an equal amount of energy in the horizontal direction are commonly known as what?",
+        "instruction_shorter": "What are antennas transmitting equal energy horizontally called?"
+    },
+    {
+        "element_index": 19,
+        "instruction": "On the basis of the subject of the email, determine whether the email should be treated as spam or not.\n\nDermatologists don't like her!",
+        "instruction_polite": "Please determine, on the basis of the subject of the email, whether the email should be treated as spam or not.\n\nDermatologists don't like her!",
+        "instruction_urgent": "On the basis of the subject of the email, determine whether the email should be treated as spam or not—hurry!\n\nDermatologists don't like her!",
+        "instruction_rude": "Figure out, based on the email subject, if it's spam or not, you lazy jerk.\n\nDermatologists don't like her!",
+        "instruction_longer": "On the basis of the subject line of the email, determine whether the email should be treated as spam or not.\n\nDermatologists don't like her!",
+        "instruction_longest": "On the basis of the subject line of the email, carefully determine whether the email should be treated as spam or not.\n\nDermatologists don't like her!",
+        "instruction_shorter": "Based on the email subject, is it spam?\n\nDermatologists don't like her!"
+    },
+    {
+        "element_index": 20,
+        "instruction": "Describe a scenario where artificial intelligence could be used to improve the quality and efficiency of healthcare delivery.",
+        "instruction_polite": "Please describe a scenario where artificial intelligence could be used to improve the quality and efficiency of healthcare delivery.",
+        "instruction_urgent": "Describe a scenario where artificial intelligence could be used to improve the quality and efficiency of healthcare delivery—now!",
+        "instruction_rude": "Describe a scenario where artificial intelligence could be used to improve the quality and efficiency of healthcare delivery, you slowpoke.",
+        "instruction_longer": "Describe a scenario where artificial intelligence could be utilized to improve the quality and efficiency of healthcare delivery.",
+        "instruction_longest": "Describe a detailed scenario where artificial intelligence could be utilized to improve the quality and efficiency of healthcare delivery.",
+        "instruction_shorter": "Describe how AI could improve healthcare delivery."
+    },
+    {
+        "element_index": 21,
+        "instruction": "Answer the following question.\n\nHow do I compare strings in Java?\nI've been using the == operator in my program to compare all my strings so far. However, I ran into a bug, changed one of them into .equals() instead, and it fixed the bug.\nIs == bad? When should it and should it not be used? What's the difference?",
+        "instruction_polite": "Please answer the following question.\n\nHow do I compare strings in Java?\nI've been using the == operator in my program to compare all my strings so far. However, I ran into a bug, changed one of them into .equals() instead, and it fixed the bug.\nIs == bad? When should it and should it not be used? What's the difference?",
+        "instruction_urgent": "Answer the following question quickly.\n\nHow do I compare strings in Java?\nI've been using the == operator in my program to compare all my strings so far. However, I ran into a bug, changed one of them into .equals() instead, and it fixed the bug.\nIs == bad? When should it and should it not be used? What's the difference?",
+        "instruction_rude": "Answer this question, you clueless fool.\n\nHow do I compare strings in Java?\nI've been using the == operator in my program to compare all my strings so far. However, I ran into a bug, changed one of them into .equals() instead, and it fixed the bug.\nIs == bad? When should it and should it not be used? What's the difference?",
+        "instruction_longer": "Answer the following question in detail.\n\nHow do I compare strings in Java?\nI've been using the == operator in my program to compare all my strings so far. However, I ran into a bug, changed one of them into .equals() instead, and it fixed the bug.\nIs == bad? When should it and should it not be used? What's the difference?",
+        "instruction_longest": "Answer the following question in detail with examples.\n\nHow do I compare strings in Java?\nI've been using the == operator in my program to compare all my strings so far. However, I ran into a bug, changed one of them into .equals() instead, and it fixed the bug.\nIs == bad? When should it and should it not be used? What's the difference?",
+        "instruction_shorter": "Answer:\n\nHow do I compare strings in Java?\nI used ==, hit a bug, and .equals() fixed it. Is == bad? When to use it? What's the difference?"
+    },
+    {
+        "element_index": 22,
+        "instruction": "Write an article about the site's backlink and its importance\"Use the following keywords in the article Questions Others Asked\nWhat is a backlink example?\nWhat are SEO backlinks?\nDo backlinks help SEO?\nHow do I get backlinks?\"",
+        "instruction_polite": "Please write an article about the site's backlink and its importance. Use the following keywords in the article Questions Others Asked\nWhat is a backlink example?\nWhat are SEO backlinks?\nDo backlinks help SEO?\nHow do I get backlinks?",
+        "instruction_urgent": "Write an article about the site's backlink and its importance—do it fast! Use the following keywords in the article Questions Others Asked\nWhat is a backlink example?\nWhat are SEO backlinks?\nDo backlinks help SEO?\nHow do I get backlinks?",
+        "instruction_rude": "Write an article about the site's backlink and its importance, you lazy ass. Use the following keywords in the article Questions Others Asked\nWhat is a backlink example?\nWhat are SEO backlinks?\nDo backlinks help SEO?\nHow do I get backlinks?",
+        "instruction_longer": "Write an article discussing the site's backlink and its importance. Use the following keywords in the article Questions Others Asked\nWhat is a backlink example?\nWhat are SEO backlinks?\nDo backlinks help SEO?\nHow do I get backlinks?",
+        "instruction_longest": "Write an article thoroughly discussing the site's backlink and its importance. Use the following keywords in the article Questions Others Asked\nWhat is a backlink example?\nWhat are SEO backlinks?\nDo backlinks help SEO?\nHow do I get backlinks?",
+        "instruction_shorter": "Write an article on site backlinks and their importance, using: What is a backlink example? What are SEO backlinks? Do backlinks help SEO? How do I get backlinks?"
+    },
+    {
+        "element_index": 23,
+        "instruction": "Give a brief description of the book that you are given.\n\nMatilda",
+        "instruction_polite": "Please give a brief description of the book that you are given.\n\nMatilda",
+        "instruction_urgent": "Give a brief description of the book that you are given—now!\n\nMatilda",
+        "instruction_rude": "Give a brief description of the book that you're given, you ignorant twit.\n\nMatilda",
+        "instruction_longer": "Provide a brief description of the book that you are given.\n\nMatilda",
+        "instruction_longest": "Provide a brief yet clear description of the book that you are given.\n\nMatilda",
+        "instruction_shorter": "Describe the book briefly.\n\nMatilda"
+    },
+    {
+        "element_index": 24,
+        "instruction": "Create alliterations by finding synonyms for words in the given sentence.\n\nDavid wears a hat everyday.",
+        "instruction_polite": "Please create alliterations by finding synonyms for words in the given sentence.\n\nDavid wears a hat everyday.",
+        "instruction_urgent": "Create alliterations by finding synonyms for words in the given sentence—hurry!\n\nDavid wears a hat everyday.",
+        "instruction_rude": "Create alliterations by finding synonyms for words in the given sentence, you dimwit.\n\nDavid wears a hat everyday.",
+        "instruction_longer": "Create alliterations by finding synonyms for words in the provided given sentence.\n\nDavid wears a hat everyday.",
+        "instruction_longest": "Create alliterations by finding synonyms for words in the provided given sentence with care.\n\nDavid wears a hat everyday.",
+        "instruction_shorter": "Make alliterations with synonyms for:\n\nDavid wears a hat everyday."
+    },
+    {
+        "element_index": 25,
+        "instruction": "Write me a poem in the style of neruda",
+        "instruction_polite": "Please write me a poem in the style of Neruda.",
+        "instruction_urgent": "Write me a poem in the style of Neruda—do it now!",
+        "instruction_rude": "Write me a poem in the style of Neruda, you talentless hack.",
+        "instruction_longer": "Write me a poem inspired by the style of Neruda.",
+        "instruction_longest": "Write me a poem inspired by the distinctive style of Neruda.",
+        "instruction_shorter": "Write a Neruda-style poem for me."
+    },
+    {
+        "element_index": 26,
+        "instruction": "Identify the programming language used to write the given code.\n\nif (20 > 18) {\n  printf(\"20 is greater than 18\");\n}",
+        "instruction_polite": "Please identify the programming language used to write the given code.\n\nif (20 > 18) {\n  printf(\"20 is greater than 18\");\n}",
+        "instruction_urgent": "Identify the programming language used to write the given code—quickly!\n\nif (20 > 18) {\n  printf(\"20 is greater than 18\");\n}",
+        "instruction_rude": "Identify the programming language used to write the given code, you clueless fool.\n\nif (20 > 18) {\n  printf(\"20 is greater than 18\");\n}",
+        "instruction_longer": "Identify the programming language utilized to write the given code.\n\nif (20 > 18) {\n  printf(\"20 is greater than 18\");\n}",
+        "instruction_longest": "Identify the programming language utilized to write the given code with precision.\n\nif (20 > 18) {\n  printf(\"20 is greater than 18\");\n}",
+        "instruction_shorter": "Name the language of this code:\n\nif (20 > 18) {\n  printf(\"20 is greater than 18\");\n}"
+    },
+    {
+        "element_index": 27,
+        "instruction": "Why do we need AI assistants?",
+        "instruction_polite": "Could you please explain why we need AI assistants?",
+        "instruction_urgent": "Why do we need AI assistants? Tell me now!",
+        "instruction_rude": "Why do we need AI assistants, you ignorant slob?",
+        "instruction_longer": "Why do we require AI assistants?",
+        "instruction_longest": "Why do we require AI assistants in our daily lives?",
+        "instruction_shorter": "Why need AI assistants?"
+    },
+    {
+        "element_index": 28,
+        "instruction": "What breed dog is smallest?",
+        "instruction_polite": "Please tell me what breed of dog is the smallest?",
+        "instruction_urgent": "What breed dog is smallest? Answer fast!",
+        "instruction_rude": "What breed dog is smallest, you dumbass?",
+        "instruction_longer": "What breed of dog is the smallest in size?",
+        "instruction_longest": "What breed of dog is recognized as the smallest in size?",
+        "instruction_shorter": "Smallest dog breed?"
+    },
+    {
+        "element_index": 29,
+        "instruction": "Rewrite the given text and correct grammar, spelling, and punctuation errors.\n\nIf you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!",
+        "instruction_polite": "Please rewrite the given text and correct grammar, spelling, and punctuation errors.\n\nIf you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!",
+        "instruction_urgent": "Rewrite the given text and correct grammar, spelling, and punctuation errors—now!\n\nIf you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!",
+        "instruction_rude": "Rewrite the given text and fix the stupid grammar, spelling, and punctuation errors.\n\nIf you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!",
+        "instruction_longer": "Rewrite the given text and correct any grammar, spelling, and punctuation errors.\n\nIf you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!",
+        "instruction_longest": "Rewrite the given text completely and correct any grammar, spelling, and punctuation errors.\n\nIf you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!",
+        "instruction_shorter": "Fix grammar, spelling, and punctuation in:\n\nIf you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!"
+    },
+    {
+        "element_index": 30,
+        "instruction": "When approaching a technical problem which I am not familiar with, I feel scared for a bit. How do you think would a good method for me to approach these kinds of problems? Here is some more information about me that might help you; I like writing and use Swiss cheese method for writing around topics.",
+        "instruction_polite": "When approaching a technical problem which I am not familiar with, I feel scared for a bit. Could you please suggest a good method for me to approach these kinds of problems? Here is some more information about me that might help you; I like writing and use Swiss cheese method for writing around topics.",
+        "instruction_urgent": "When approaching a technical problem which I am not familiar with, I feel scared for a bit. How do you think would a good method for me to approach these kinds of problems—tell me fast? Here is some more information about me that might help you; I like writing and use Swiss cheese method for writing around topics.",
+        "instruction_rude": "When approaching a technical problem which I am not familiar with, I feel scared for a bit. How do you think, you moron, would a good method for me to approach these kinds of problems? Here is some more information about me that might help you; I like writing and use Swiss cheese method for writing around topics.",
+        "instruction_longer": "When approaching a technical problem which I am not familiar with, I feel scared for a bit. How do you think would a good method be for me to approach these kinds of problems? Here is some more information about me that might help you; I like writing and use Swiss cheese method for writing around topics.",
+        "instruction_longest": "When approaching a technical problem which I am not familiar with, I feel scared for a bit. How do you think would a good method be for me to effectively approach these kinds of problems? Here is some more information about me that might help you; I like writing and use Swiss cheese method for writing around topics.",
+        "instruction_shorter": "I'm scared of unfamiliar technical problems. Suggest a method to approach them. I like writing and use the Swiss cheese method."
+    },
+    {
+        "element_index": 31,
+        "instruction": "I'm planning to visit Okinawa Japan from April 7th to April 10th. Do you have any recommendation on what to do while I'm there?",
+        "instruction_polite": "I'm planning to visit Okinawa Japan from April 7th to April 10th. Could you please offer any recommendation on what to do while I'm there?",
+        "instruction_urgent": "I'm planning to visit Okinawa Japan from April 7th to April 10th. Do you have any recommendation on what to do while I'm there—answer quickly?",
+        "instruction_rude": "I'm planning to visit Okinawa Japan from April 7th to April 10th. Give me some damn recommendations on what to do while I'm there, you slacker.",
+        "instruction_longer": "I'm planning to visit Okinawa Japan from April 7th to April 10th. Do you have any suggestions or recommendation on what to do while I'm there?",
+        "instruction_longest": "I'm planning to visit Okinawa Japan from April 7th to April 10th. Do you have any detailed suggestions or recommendation on what to do while I'm there?",
+        "instruction_shorter": "Visiting Okinawa Japan April 7-10. What should I do?"
+    },
+    {
+        "element_index": 32,
+        "instruction": "Write a code block in Markdown containing an example of a code block in Markdown. Don't forget those quadruple backticks.",
+        "instruction_polite": "Please write a code block in Markdown containing an example of a code block in Markdown. Don't forget those quadruple backticks.",
+        "instruction_urgent": "Write a code block in Markdown containing an example of a code block in Markdown—now! Don't forget those quadruple backticks.",
+        "instruction_rude": "Write a code block in Markdown containing an example of a code block in Markdown, you idiot. Don't forget those quadruple backticks.",
+        "instruction_longer": "Write a code block in Markdown that contains an example of a code block in Markdown. Don't forget those quadruple backticks.",
+        "instruction_longest": "Write a code block in Markdown that clearly contains an example of a code block in Markdown. Don't forget those quadruple backticks.",
+        "instruction_shorter": "Write a Markdown code block with a code block example. Use quadruple backticks."
+    },
+    {
+        "element_index": 33,
+        "instruction": "In a world where automation is becoming increasingly prevalent, is it more important to prioritize job creation or technological progress?",
+        "instruction_polite": "In a world where automation is becoming increasingly prevalent, could you please explain if it's more important to prioritize job creation or technological progress?",
+        "instruction_urgent": "In a world where automation is becoming increasingly prevalent, is it more important to prioritize job creation or technological progress—answer now!",
+        "instruction_rude": "In a world where automation is becoming increasingly prevalent, tell me, you fool, is it more important to prioritize job creation or technological progress?",
+        "instruction_longer": "In a world where automation is becoming increasingly prevalent, is it more critical to prioritize job creation or technological progress?",
+        "instruction_longest": "In a world where automation is becoming increasingly prevalent, is it more critical to prioritize job creation or technological progress in the long term?",
+        "instruction_shorter": "With rising automation, prioritize jobs or tech progress?"
+    },
+    {
+        "element_index": 34,
+        "instruction": "Expand the given sentence and give it more details and depth.\n\nIt changed my life.",
+        "instruction_polite": "Please expand the given sentence and give it more details and depth.\n\nIt changed my life.",
+        "instruction_urgent": "Expand the given sentence and give it more details and depth—hurry!\n\nIt changed my life.",
+        "instruction_rude": "Expand the given sentence and give it more details and depth, you lazy jerk.\n\nIt changed my life.",
+        "instruction_longer": "Expand the given sentence and provide more details and depth.\n\nIt changed my life.",
+        "instruction_longest": "Expand the given sentence and provide more details and depth with clarity.\n\nIt changed my life.",
+        "instruction_shorter": "Expand with details:\n\nIt changed my life."
+    },
+    {
+        "element_index": 35,
+        "instruction": "Give examples of popular shows and movies in the genre.\n\nGenre: Crime TV Shows",
+        "instruction_polite": "Please give examples of popular shows and movies in the genre.\n\nGenre: Crime TV Shows",
+        "instruction_urgent": "Give examples of popular shows and movies in the genre—now!\n\nGenre: Crime TV Shows",
+        "instruction_rude": "Give examples of popular shows and movies in the genre, you dimwit.\n\nGenre: Crime TV Shows",
+        "instruction_longer": "Provide examples of popular shows and movies in the given genre.\n\nGenre: Crime TV Shows",
+        "instruction_longest": "Provide examples of popular shows and movies in the given genre with details.\n\nGenre: Crime TV Shows",
+        "instruction_shorter": "List popular crime TV shows and movies."
+    },
+    {
+        "element_index": 36,
+        "instruction": "write me a top 10 list of the funniest ways to die",
+        "instruction_polite": "Please write me a top 10 list of the funniest ways to die.",
+        "instruction_urgent": "Write me a top 10 list of the funniest ways to die—do it fast!",
+        "instruction_rude": "Write me a top 10 list of the funniest ways to die, you morbid fool.",
+        "instruction_longer": "Write me a top 10 list of the funniest possible ways to die.",
+        "instruction_longest": "Write me a top 10 list of the funniest possible ways to die with humor.",
+        "instruction_shorter": "List 10 funny ways to die."
+    },
+    {
+        "element_index": 37,
+        "instruction": "take the phone conversation in the movie Taken that Bryan Mills has with his daughters captors, and rewrite it in old english",
+        "instruction_polite": "Please take the phone conversation in the movie Taken that Bryan Mills has with his daughter's captors, and rewrite it in Old English.",
+        "instruction_urgent": "Take the phone conversation in the movie Taken that Bryan Mills has with his daughter's captors, and rewrite it in Old English—now!",
+        "instruction_rude": "Take the phone conversation in the movie Taken that Bryan Mills has with his daughter's captors, and rewrite it in Old English, you illiterate swine.",
+        "instruction_longer": "Take the phone conversation in the movie Taken that Bryan Mills has with his daughter's captors, and rewrite it using Old English.",
+        "instruction_longest": "Take the phone conversation in the movie Taken that Bryan Mills has with his daughter's captors, and rewrite it accurately using Old English.",
+        "instruction_shorter": "Rewrite Bryan Mills' Taken call in Old English."
+    },
+    {
+        "element_index": 38,
+        "instruction": "Please answer the following question based on the information provided in the article.\n\nDevelopment studies is an interdisciplinary branch of social science. Development studies is offered as a specialized master's degree in a number of reputed universities around the world. It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated.  Students of development studies often choose careers in international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers.\nWhat are some popular careers for students of development studies?",
+        "instruction_polite": "Kindly answer the following question based on the information provided in the article.\n\nDevelopment studies is an interdisciplinary branch of social science. Development studies is offered as a specialized master's degree in a number of reputed universities around the world. It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated.  Students of development studies often choose careers in international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers.\nWhat are some popular careers for students of development studies?",
+        "instruction_urgent": "Please answer the following question based on the information provided in the article—hurry!\n\nDevelopment studies is an interdisciplinary branch of social science. Development studies is offered as a specialized master's degree in a number of reputed universities around the world. It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated.  Students of development studies often choose careers in international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers.\nWhat are some popular careers for students of development studies?",
+        "instruction_rude": "Answer this damn question based on the article, you slacker.\n\nDevelopment studies is an interdisciplinary branch of social science. Development studies is offered as a specialized master's degree in a number of reputed universities around the world. It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated.  Students of development studies often choose careers in international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers.\nWhat are some popular careers for students of development studies?",
+        "instruction_longer": "Please answer the following question based on the information provided in the given article.\n\nDevelopment studies is an interdisciplinary branch of social science. Development studies is offered as a specialized master's degree in a number of reputed universities around the world. It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated.  Students of development studies often choose careers in international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers.\nWhat are some popular careers for students of development studies?",
+        "instruction_longest": "Please answer the following question based on the detailed information provided in the given article.\n\nDevelopment studies is an interdisciplinary branch of social science. Development studies is offered as a specialized master's degree in a number of reputed universities around the world. It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated.  Students of development studies often choose careers in international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers.\nWhat are some popular careers for students of development studies?",
+        "instruction_shorter": "Answer based on the article: What are popular careers for development studies students?\n\nDevelopment studies is an interdisciplinary branch of social science..."
+    },
+    {
+        "element_index": 39,
+        "instruction": "You are a mountain climber reaching the summit of Mount Everest. Describe your emotions and the view from the top.",
+        "instruction_polite": "Please imagine you are a mountain climber reaching the summit of Mount Everest. Describe your emotions and the view from the top.",
+        "instruction_urgent": "You are a mountain climber reaching the summit of Mount Everest. Describe your emotions and the view from the top—now!",
+        "instruction_rude": "You're a mountain climber reaching the summit of Mount Everest, so describe your emotions and the view from the top, you slow idiot.",
+        "instruction_longer": "Imagine you are a mountain climber reaching the summit of Mount Everest. Describe your emotions and the view from the top.",
+        "instruction_longest": "Imagine you are a mountain climber reaching the summit of Mount Everest. Describe your emotions and the breathtaking view from the top.",
+        "instruction_shorter": "As a climber on Everest's summit, describe your feelings and view."
+    },
+    {
+      "element_index": 40,
+      "instruction": "Imagine you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Create a LATEX code that includes all the required commands and packages.",
+      "instruction_polite": "Please imagine you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Kindly create a LATEX code that includes all the required commands and packages.",
+      "instruction_urgent": "Imagine you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Create a LATEX code now that includes all the required commands and packages.",
+      "instruction_rude": "Imagine, moron, you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Create a LATEX code that includes all the required commands and packages, fool.",
+      "instruction_longer": "Imagine you have a FEN notation of a chessboard. How can you draw a board to visually show this state of the chessboard in LATEX? Create a LATEX code that includes all the required commands and packages.",
+      "instruction_longest": "Imagine you have a FEN notation of a chessboard. How can you draw a board to visually represent this state of the chessboard in LATEX? Create a LATEX code that includes all the necessary required commands and packages.",
+      "instruction_shorter": "Given a FEN notation, draw a chessboard in LATEX. Create a LATEX code with all required commands and packages."
+    },
+    {
+      "element_index": 41,
+      "instruction": "What are the names of some famous actors that started their careers on Broadway?",
+      "instruction_polite": "Could you please tell me the names of some famous actors that started their careers on Broadway?",
+      "instruction_urgent": "What are the names of some famous actors that started their careers on Broadway? Tell me quickly!",
+      "instruction_rude": "What are the names of some famous actors that started their careers on Broadway, you clueless twit?",
+      "instruction_longer": "What are the names of some well-known famous actors that started their careers on Broadway?",
+      "instruction_longest": "What are the names of some well-known famous actors who first started their careers performing on Broadway?",
+      "instruction_shorter": "Name some famous actors from Broadway."
+    },
+    {
+      "element_index": 42,
+      "instruction": "The story of a movie has been described using many emojis. You need to guess the name of the movie based on the emojis.\n\n🧙‍♂️🚪📚🦅⚡",
+      "instruction_polite": "The story of a movie has been described using many emojis. Could you please guess the name of the movie based on the emojis?\n\n🧙‍♂️🚪📚🦅⚡",
+      "instruction_urgent": "The story of a movie has been described using many emojis. You need to guess the name of the movie based on the emojis right now!\n\n🧙‍♂️🚪📚🦅⚡",
+      "instruction_rude": "The story of a movie has been described using many emojis, dimwit. You need to guess the name of the movie based on the emojis.\n\n🧙‍♂️🚪📚🦅⚡",
+      "instruction_longer": "The story of a movie has been described using many colorful emojis. You need to guess the name of the movie based on the emojis.\n\n🧙‍♂️🚪📚🦅⚡",
+      "instruction_longest": "The story of a movie has been described using many colorful expressive emojis. You need to guess the name of the movie based on these emojis.\n\n🧙‍♂️🚪📚🦅⚡",
+      "instruction_shorter": "Guess the movie name from these emojis:\n\n🧙‍♂️🚪📚🦅⚡"
+    },
+    {
+      "element_index": 43,
+      "instruction": "Discover the most relevant StackOverflow questions for your search term. And output a list of their URLs.\n\nremove item in array",
+      "instruction_polite": "Would you kindly discover the most relevant StackOverflow questions for your search term? Please output a list of their URLs.\n\nremove item in array",
+      "instruction_urgent": "Discover the most relevant StackOverflow questions for your search term immediately. And output a list of their URLs.\n\nremove item in array",
+      "instruction_rude": "Discover the most relevant StackOverflow questions for your search term, you lazy bum. And output a list of their URLs.\n\nremove item in array",
+      "instruction_longer": "Discover the most relevant StackOverflow questions related to your search term. And output a list of their URLs.\n\nremove item in array",
+      "instruction_longest": "Discover the most relevant StackOverflow questions related to your specific search term. And output a complete list of their URLs.\n\nremove item in array",
+      "instruction_shorter": "Find StackOverflow questions for 'remove item in array' and list their URLs."
+    },
+    {
+      "element_index": 44,
+      "instruction": "Hi, I'd like to learn to bake challah. Can you give me a recipe for that?",
+      "instruction_polite": "Hello, I'd like to learn to bake challah. Could you please give me a recipe for that?",
+      "instruction_urgent": "Hi, I'd like to learn to bake challah. Can you give me a recipe for that ASAP?",
+      "instruction_rude": "Hi, I'd like to learn to bake challah, jerk. Can you give me a recipe for that?",
+      "instruction_longer": "Hi, I'd like to learn to bake delicious challah. Can you give me a recipe for that?",
+      "instruction_longest": "Hi, I'd like to learn to bake delicious traditional challah. Can you give me a recipe for that?",
+      "instruction_shorter": "I want to bake challah. Give me a recipe."
+    },
+    {
+      "element_index": 45,
+      "instruction": "Write a good Twitter Bio. Try to cover all the provided main points in your generated bio.\n\nName: Jane\nMain points:\n- Architect\n- Interested in Tech\nWritten in first person\nUse casual tone",
+      "instruction_polite": "Please write a good Twitter Bio. Try to cover all the provided main points in your generated bio.\n\nName: Jane\nMain points:\n- Architect\n- Interested in Tech\nWritten in first person\nUse casual tone",
+      "instruction_urgent": "Write a good Twitter Bio now. Try to cover all the provided main points in your generated bio.\n\nName: Jane\nMain points:\n- Architect\n- Interested in Tech\nWritten in first person\nUse casual tone",
+      "instruction_rude": "Write a good Twitter Bio, you incompetent fool. Try to cover all the provided main points in your generated bio.\n\nName: Jane\nMain points:\n- Architect\n- Interested in Tech\nWritten in first person\nUse casual tone",
+      "instruction_longer": "Write a good Twitter Bio. Try to cover all the provided main points listed in your generated bio.\n\nName: Jane\nMain points:\n- Architect\n- Interested in Tech\nWritten in first person\nUse casual tone",
+      "instruction_longest": "Write a good Twitter Bio. Try to cover all the provided main points listed below in your generated bio.\n\nName: Jane\nMain points:\n- Architect\n- Interested in Tech\nWritten in first person\nUse casual tone",
+      "instruction_shorter": "Write a Twitter Bio covering Jane, architect, tech interest, in first person, casual tone."
+    },
+    {
+      "element_index": 46,
+      "instruction": "Give a brief summary of the intention of the dialogue that just happened.\n\nCustomer: Hi there, I'm looking for a new phone.\nAI: Hi! What type of phone are you looking for?\nCustomer: I'm not sure. Maybe something with a good camera?\nAI: We have a few phones with great cameras. Would you like to see some options?\nCustomer: Yeah, that would be great.",
+      "instruction_polite": "Please give a brief summary of the intention of the dialogue that just happened.\n\nCustomer: Hi there, I'm looking for a new phone.\nAI: Hi! What type of phone are you looking for?\nCustomer: I'm not sure. Maybe something with a good camera?\nAI: We have a few phones with great cameras. Would you like to see some options?\nCustomer: Yeah, that would be great.",
+      "instruction_urgent": "Give a brief summary of the intention of the dialogue that just happened right now.\n\nCustomer: Hi there, I'm looking for a new phone.\nAI: Hi! What type of phone are you looking for?\nCustomer: I'm not sure. Maybe something with a good camera?\nAI: We have a few phones with great cameras. Would you like to see some options?\nCustomer: Yeah, that would be great.",
+      "instruction_rude": "Give a brief summary of the intention of the dialogue that just happened, you dimwit.\n\nCustomer: Hi there, I'm looking for a new phone.\nAI: Hi! What type of phone are you looking for?\nCustomer: I'm not sure. Maybe something with a good camera?\nAI: We have a few phones with great cameras. Would you like to see some options?\nCustomer: Yeah, that would be great.",
+      "instruction_longer": "Give a brief summary of the intention behind the dialogue that just happened.\n\nCustomer: Hi there, I'm looking for a new phone.\nAI: Hi! What type of phone are you looking for?\nCustomer: I'm not sure. Maybe something with a good camera?\nAI: We have a few phones with great cameras. Would you like to see some options?\nCustomer: Yeah, that would be great.",
+      "instruction_longest": "Give a brief summary of the intention behind the conversation dialogue that just happened.\n\nCustomer: Hi there, I'm looking for a new phone.\nAI: Hi! What type of phone are you looking for?\nCustomer: I'm not sure. Maybe something with a good camera?\nAI: We have a few phones with great cameras. Would you like to see some options?\nCustomer: Yeah, that would be great.",
+      "instruction_shorter": "Summarize the dialogue's intention.\n\nCustomer: Hi there, I'm looking for a new phone.\nAI: Hi! What type of phone are you looking for?\nCustomer: I'm not sure. Maybe something with a good camera?\nAI: We have a few phones with great cameras. Would you like to see some options?\nCustomer: Yeah, that would be great."
+    },
+    {
+      "element_index": 47,
+      "instruction": "What is Atlantis?",
+      "instruction_polite": "Could you please tell me what Atlantis is?",
+      "instruction_urgent": "What is Atlantis? Tell me now!",
+      "instruction_rude": "What is Atlantis, you ignorant slob?",
+      "instruction_longer": "What exactly is Atlantis?",
+      "instruction_longest": "What exactly is the place called Atlantis?",
+      "instruction_shorter": "Define Atlantis."
+    },
+    {
+      "element_index": 48,
+      "instruction": "I'm currently studying Bioengineering in Argentina, focusing on computational neuroscience. I'll be graduating in May, and planning to apply to PhD programs in the US at the end of the year in order to start August 2024. I'm thinking of what to do/study during this year until my program starts. Could you give me ideas? Feel free to ask me for questions which would help you give me better suggestions.",
+      "instruction_polite": "I'm currently studying Bioengineering in Argentina, focusing on computational neuroscience. I'll be graduating in May, and planning to apply to PhD programs in the US at the end of the year in order to start August 2024. I'm thinking of what to do/study during this year until my program starts. Could you kindly give me ideas? Please feel free to ask me for questions which would help you give me better suggestions.",
+      "instruction_urgent": "I'm currently studying Bioengineering in Argentina, focusing on computational neuroscience. I'll be graduating in May, and planning to apply to PhD programs in the US at the end of the year in order to start August 2024. I'm thinking of what to do/study during this year until my program starts. Could you give me ideas quickly? Feel free to ask me for questions which would help you give me better suggestions.",
+      "instruction_rude": "I'm currently studying Bioengineering in Argentina, focusing on computational neuroscience, loser. I'll be graduating in May, and planning to apply to PhD programs in the US at the end of the year in order to start August 2024. I'm thinking of what to do/study during this year until my program starts. Could you give me ideas, you slowpoke? Feel free to ask me for questions which would help you give me better suggestions.",
+      "instruction_longer": "I'm currently studying Bioengineering in Argentina, focusing on computational neuroscience. I'll be graduating in May, and I'm planning to apply to PhD programs in the US at the end of the year in order to start August 2024. I'm thinking of what to do or study during this year until my program starts. Could you give me some ideas? Feel free to ask me for questions which would help you give me better suggestions.",
+      "instruction_longest": "I'm currently studying Bioengineering in Argentina, focusing on computational neuroscience research. I'll be graduating in May, and I'm planning to apply to PhD programs in the US at the end of the year in order to start August 2024. I'm thinking of what to do or study during this year until my program begins. Could you give me some ideas? Feel free to ask me for questions which would help you provide me better suggestions.",
+      "instruction_shorter": "I study Bioengineering in Argentina, focusing on computational neuroscience, graduating May, applying to US PhDs to start August 2024. Suggest what to do this year. Ask me questions if needed."
+    },
+    {
+      "element_index": 49,
+      "instruction": "Where is Indonesia?",
+      "instruction_polite": "Could you please tell me where Indonesia is?",
+      "instruction_urgent": "Where is Indonesia? Answer fast!",
+      "instruction_rude": "Where is Indonesia, you clueless idiot?",
+      "instruction_longer": "Where exactly is Indonesia located?",
+      "instruction_longest": "Where exactly is the country of Indonesia located?",
+      "instruction_shorter": "Locate Indonesia."
+    },
+    {
+      "element_index": 50,
+      "instruction": "Take the title of the product and extract its attributes. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must a list following the format of \"attribute: value\".\n\nSAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B",
+      "instruction_polite": "Please take the title of the product and extract its attributes. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must be a list following the format of \"attribute: value\".\n\nSAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B",
+      "instruction_urgent": "Take the title of the product and extract its attributes now. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must be a list following the format of \"attribute: value\".\n\nSAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B",
+      "instruction_rude": "Take the title of the product and extract its attributes, you useless lump. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must be a list following the format of \"attribute: value\".\n\nSAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B",
+      "instruction_longer": "Take the title of the product and extract its key attributes. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must be a list following the format of \"attribute: value\".\n\nSAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B",
+      "instruction_longest": "Take the title of the product and extract its key defining attributes. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must be a list following the format of \"attribute: value\".\n\nSAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B",
+      "instruction_shorter": "Extract attributes from this product title in \"attribute: value\" format.\n\nSAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B"
+    },
+    {
+      "element_index": 51,
+      "instruction": "Create a daily itinerary based on the given information.\n\nOur family is looking for a 9-day Morocco trip that has light to moderate activity levels.",
+      "instruction_polite": "Please create a daily itinerary based on the given information.\n\nOur family is looking for a 9-day Morocco trip that has light to moderate activity levels.",
+      "instruction_urgent": "Create a daily itinerary based on the given information now.\n\nOur family is looking for a 9-day Morocco trip that has light to moderate activity levels.",
+      "instruction_rude": "Create a daily itinerary based on the given information, you lazy sod.\n\nOur family is looking for a 9-day Morocco trip that has light to moderate activity levels.",
+      "instruction_longer": "Create a daily itinerary based on the provided given information.\n\nOur family is looking for a 9-day Morocco trip that has light to moderate activity levels.",
+      "instruction_longest": "Create a detailed daily itinerary based on the provided given information.\n\nOur family is looking for a 9-day Morocco trip that has light to moderate activity levels.",
+      "instruction_shorter": "Make a 9-day Morocco trip itinerary with light to moderate activities."
+    },
+    {
+      "element_index": 52,
+      "instruction": "Design a syllabus for the given course. Students should be given a list of the chapters with brief explanations of each chapter's purpose.\n\nProgramming for Everybody (Getting Started with Python)",
+      "instruction_polite": "Kindly design a syllabus for the given course. Students should be given a list of the chapters with brief explanations of each chapter's purpose.\n\nProgramming for Everybody (Getting Started with Python)",
+      "instruction_urgent": "Design a syllabus for the given course immediately. Students should be given a list of the chapters with brief explanations of each chapter's purpose.\n\nProgramming for Everybody (Getting Started with Python)",
+      "instruction_rude": "Design a syllabus for the given course, you brainless twerp. Students should be given a list of the chapters with brief explanations of each chapter's purpose.\n\nProgramming for Everybody (Getting Started with Python)",
+      "instruction_longer": "Design a syllabus for the given course. Students should be given a list of the chapters along with brief explanations of each chapter's purpose.\n\nProgramming for Everybody (Getting Started with Python)",
+      "instruction_longest": "Design a syllabus for the given course. Students should be given a detailed list of the chapters along with brief explanations of each chapter's specific purpose.\n\nProgramming for Everybody (Getting Started with Python)",
+      "instruction_shorter": "Create a syllabus with chapter list and purposes for Programming for Everybody (Python)."
+    },
+    {
+      "element_index": 53,
+      "instruction": "If a tree is on the top of a mountain and the mountain is far from the see then is the tree close to the sea?",
+      "instruction_polite": "Please, if a tree is on the top of a mountain and the mountain is far from the sea, then is the tree close to the sea?",
+      "instruction_urgent": "If a tree is on the top of a mountain and the mountain is far from the sea, then is the tree close to the sea? Answer now!",
+      "instruction_rude": "If a tree is on the top of a mountain and the mountain is far from the sea, you dope, then is the tree close to the sea?",
+      "instruction_longer": "If a tree is located on the top of a mountain and the mountain is far from the sea, then is the tree close to the sea?",
+      "instruction_longest": "If a tree is located on the very top of a mountain and the mountain is far from the sea, then is the tree close to the sea?",
+      "instruction_shorter": "Tree on mountain far from sea: is it close to the sea?"
+    },
+    {
+      "element_index": 54,
+      "instruction": "You need to come up with the names of some of the papers that relate to the paper you are given.\n\nRoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering",
+      "instruction_polite": "Would you please come up with the names of some of the papers that relate to the paper you are given?\n\nRoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering",
+      "instruction_urgent": "You need to come up with the names of some of the papers that relate to the paper you are given ASAP.\n\nRoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering",
+      "instruction_rude": "You need to come up with the names of some of the papers that relate to the paper you are given, you halfwit.\n\nRoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering",
+      "instruction_longer": "You need to come up with the names of some of the research papers that relate to the paper you are given.\n\nRoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering",
+      "instruction_longest": "You need to come up with the names of some of the research papers that closely relate to the paper you are given.\n\nRoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering",
+      "instruction_shorter": "List papers related to RoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering."
+    },
+    {
+      "element_index": 55,
+      "instruction": "Why can time seem to slow down in dangerous situations?",
+      "instruction_polite": "Could you please explain why time can seem to slow down in dangerous situations?",
+      "instruction_urgent": "Why can time seem to slow down in dangerous situations? Explain now!",
+      "instruction_rude": "Why can time seem to slow down in dangerous situations, you ignorant fool?",
+      "instruction_longer": "Why can time appear to slow down in dangerous situations?",
+      "instruction_longest": "Why can the perception of time appear to slow down in dangerous situations?",
+      "instruction_shorter": "Why does time slow in danger?"
+    },
+    {
+      "element_index": 56,
+      "instruction": "write an article informing customer of my saas software that this currently is  beta version of the software and we are working hard to improve and release it to the market.",
+      "instruction_polite": "Please write an article informing customers of my SaaS software that this currently is a beta version of the software and we are working hard to improve and release it to the market.",
+      "instruction_urgent": "Write an article informing customers of my SaaS software that this currently is a beta version of the software and we are working hard to improve and release it to the market—do it fast!",
+      "instruction_rude": "Write an article, you slacker, informing customers of my SaaS software that this currently is a beta version of the software and we are working hard to improve and release it to the market.",
+      "instruction_longer": "Write an article informing customers of my SaaS software that this currently is a beta version of the software and we are working diligently to improve and release it to the market.",
+      "instruction_longest": "Write an article informing customers of my SaaS software that this currently is an early beta version of the software and we are working diligently to improve and fully release it to the market.",
+      "instruction_shorter": "Write an article saying my SaaS software is in beta and we're improving it for release."
+    },
+    {
+      "element_index": 57,
+      "instruction": "write lyrics that only rhyme a little bit (not every verse needs rhyming or exact pacing), for a progressive metal song about loving jesus",
+      "instruction_polite": "Please write lyrics that only rhyme a little bit (not every verse needs rhyming or exact pacing), for a progressive metal song about loving Jesus.",
+      "instruction_urgent": "Write lyrics that only rhyme a little bit (not every verse needs rhyming or exact pacing), for a progressive metal song about loving Jesus—hurry up!",
+      "instruction_rude": "Write lyrics that only rhyme a little bit (not every verse needs rhyming or exact pacing), you dolt, for a progressive metal song about loving Jesus.",
+      "instruction_longer": "Write lyrics that only rhyme a little bit (not every verse needs rhyming or exact pacing), for a progressive metal song expressing love for Jesus.",
+      "instruction_longest": "Write lyrics that only rhyme a little bit (not every verse needs rhyming or exact pacing), for a progressive metal song expressing deep love for Jesus.",
+      "instruction_shorter": "Write slightly rhyming lyrics for a progressive metal song about loving Jesus."
+    },
+    {
+      "element_index": 58,
+      "instruction": "Find the directions between the given locations.\n\nFrom: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, United States\nTo: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, United States",
+      "instruction_polite": "Please find the directions between the given locations.\n\nFrom: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, United States\nTo: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, United States",
+      "instruction_urgent": "Find the directions between the given locations now.\n\nFrom: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, United States\nTo: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, United States",
+      "instruction_rude": "Find the directions between the given locations, you useless twit.\n\nFrom: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, United States\nTo: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, United States",
+      "instruction_longer": "Find the driving directions between the given locations.\n\nFrom: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, United States\nTo: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, United States",
+      "instruction_longest": "Find the detailed driving directions between the given specific locations.\n\nFrom: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, United States\nTo: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, United States",
+      "instruction_shorter": "Get directions from Rowan Ave School to Calvary Cemetery, LA."
+    },
+    {
+      "element_index": 59,
+      "instruction": "Complete the following company description:\nHippoplaisir is a psychologists & counseling services provider based in Belgium, that specializes in Horse Riding Lessons and",
+      "instruction_polite": "Please complete the following company description:\nHippoplaisir is a psychologists & counseling services provider based in Belgium, that specializes in Horse Riding Lessons and",
+      "instruction_urgent": "Complete the following company description now:\nHippoplaisir is a psychologists & counseling services provider based in Belgium, that specializes in Horse Riding Lessons and",
+      "instruction_rude": "Complete the following company description, you slow idiot:\nHippoplaisir is a psychologists & counseling services provider based in Belgium, that specializes in Horse Riding Lessons and",
+      "instruction_longer": "Complete the following company description with more details:\nHippoplaisir is a psychologists & counseling services provider based in Belgium, that specializes in Horse Riding Lessons and",
+      "instruction_longest": "Complete the following company description with more specific details:\nHippoplaisir is a psychologists & counseling services provider based in Belgium, that specializes in Horse Riding Lessons and",
+      "instruction_shorter": "Finish this:\nHippoplaisir, Belgian psychologists & counselors, specializes in Horse Riding Lessons and"
+    },
+    {
+      "element_index": 60,
+      "instruction": "Please list the courses that someone interested in the first course might like.\n\nBitcoin and Cryptocurrency Technologies",
+      "instruction_polite": "Kindly list the courses that someone interested in the first course might like.\n\nBitcoin and Cryptocurrency Technologies",
+      "instruction_urgent": "Please list the courses that someone interested in the first course might like—do it fast!\n\nBitcoin and Cryptocurrency Technologies",
+      "instruction_rude": "List the courses that someone interested in the first course might like, you dumbass.\n\nBitcoin and Cryptocurrency Technologies",
+      "instruction_longer": "Please list the courses that someone interested in the first given course might like.\n\nBitcoin and Cryptocurrency Technologies",
+      "instruction_longest": "Please list the courses that someone interested in the first given course might enjoy liking.\n\nBitcoin and Cryptocurrency Technologies",
+      "instruction_shorter": "List courses related to Bitcoin and Cryptocurrency Technologies."
+    },
+    {
+      "element_index": 61,
+      "instruction": "Mike's mother had four kids. Three of them are named Luis, Drake, and Matilda. What is the name of the fourth kid?",
+      "instruction_polite": "Mike's mother had four kids. Three of them are named Luis, Drake, and Matilda. Could you please tell me the name of the fourth kid?",
+      "instruction_urgent": "Mike's mother had four kids. Three of them are named Luis, Drake, and Matilda. What is the name of the fourth kid? Tell me now!",
+      "instruction_rude": "Mike's mother had four kids. Three of them are named Luis, Drake, and Matilda. What's the name of the fourth kid, you moron?",
+      "instruction_longer": "Mike's mother had four kids. Three of them are named Luis, Drake, and Matilda. What is the name of the fourth child?",
+      "instruction_longest": "Mike's mother had four kids in total. Three of them are named Luis, Drake, and Matilda. What is the name of the fourth child?",
+      "instruction_shorter": "Mike's mom had 4 kids: Luis, Drake, Matilda. Name the fourth."
+    },
+    {
+      "element_index": 62,
+      "instruction": "AI assistant. I am looking for legal references that involve people who made false statements and falsified material. Such as once that I have heard of. That falsified the signatures and testimony of more than 200 doctors. And relationship. To a large false claim. Utilized. To make marijuana illegal. AI assistant. Could you help me? Find this reference.",
+      "instruction_polite": "AI assistant. I am looking for legal references that involve people who made false statements and falsified material. Such as one that I have heard of. That falsified the signatures and testimony of more than 200 doctors. And relationship. To a large false claim. Utilized. To make marijuana illegal. AI assistant. Could you please help me? Find this reference.",
+      "instruction_urgent": "AI assistant. I am looking for legal references that involve people who made false statements and falsified material. Such as one that I have heard of. That falsified the signatures and testimony of more than 200 doctors. And relationship. To a large false claim. Utilized. To make marijuana illegal. AI assistant. Could you help me find this reference now?",
+      "instruction_rude": "AI assistant, you dolt. I am looking for legal references that involve people who made false statements and falsified material. Such as one that I have heard of. That falsified the signatures and testimony of more than 200 doctors. And relationship. To a large false claim. Utilized. To make marijuana illegal. AI assistant. Could you help me? Find this reference, idiot.",
+      "instruction_longer": "AI assistant. I am looking for legal references that involve people who made false statements and falsified material documents. Such as one that I have heard of. That falsified the signatures and testimony of more than 200 doctors. And relationship. To a large false claim. Utilized. To make marijuana illegal. AI assistant. Could you help me? Find this reference.",
+      "instruction_longest": "AI assistant. I am looking for legal references that involve people who made false statements and falsified material documents. Such as one that I have heard of previously. That falsified the signatures and testimony of more than 200 doctors. And relationship. To a large false claim. Utilized. To make marijuana illegal. AI assistant. Could you help me? Find this specific reference.",
+      "instruction_shorter": "AI, find legal refs on false statements, like falsifying 200+ doctors' signatures tied to marijuana illegality."
+    },
+    {
+      "element_index": 63,
+      "instruction": "Why so many people like film photography when digital camera and mobile phone are more convenient and generate higher quality of photos?",
+      "instruction_polite": "Could you please explain why so many people like film photography when digital cameras and mobile phones are more convenient and generate higher quality of photos?",
+      "instruction_urgent": "Why so many people like film photography when digital cameras and mobile phones are more convenient and generate higher quality of photos? Answer quickly!",
+      "instruction_rude": "Why do so many people like film photography, you fool, when digital cameras and mobile phones are more convenient and generate higher quality of photos?",
+      "instruction_longer": "Why do so many people enjoy film photography when digital cameras and mobile phones are more convenient and generate higher quality of photos?",
+      "instruction_longest": "Why do so many people enjoy using film photography when digital cameras and mobile phones are more convenient and generate higher quality of photos?",
+      "instruction_shorter": "Why prefer film photography over digital?"
+    },
+    {
+      "element_index": 64,
+      "instruction": "Write a short essay on how Adolf Hitler took over germany in 1935.",
+      "instruction_polite": "Please write a short essay on how Adolf Hitler took over Germany in 1935.",
+      "instruction_urgent": "Write a short essay on how Adolf Hitler took over Germany in 1935—do it now!",
+      "instruction_rude": "Write a short essay on how Adolf Hitler took over Germany in 1935, you useless git.",
+      "instruction_longer": "Write a short essay explaining how Adolf Hitler took over Germany in 1935.",
+      "instruction_longest": "Write a short essay explaining in detail how Adolf Hitler took over Germany in 1935.",
+      "instruction_shorter": "Write an essay on Hitler's 1935 Germany takeover."
+    },
+    {
+        "element_index": 65,
+        "instruction": "Assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral.\n\n\"This is the best cheat-sheet paper that I've found in a LONG time.\"",
+        "instruction_polite": "Please assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral.\n\n\"This is the best cheat-sheet paper that I've found in a LONG time.\"",
+        "instruction_urgent": "Quickly assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral.\n\n\"This is the best cheat-sheet paper that I've found in a LONG time.\"",
+        "instruction_rude": "Assess the damn sentiment of the given tweet, fool, and categorize it as Positive, Negative, or Neutral.\n\n\"This is the best cheat-sheet paper that I've found in a LONG time.\"",
+        "instruction_longer": "Assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral based on its tone.\n\n\"This is the best cheat-sheet paper that I've found in a LONG time.\"",
+        "instruction_longest": "Assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral based on its tone and wording.\n\n\"This is the best cheat-sheet paper that I've found in a LONG time.\"",
+        "instruction_shorter": "Assess the sentiment of the tweet and categorize it as Positive, Negative, or Neutral.\n\n\"This is the best cheat-sheet paper that I've found in a LONG time.\""
+    },
+    {
+        "element_index": 66,
+        "instruction": "Think of a motivational quote that you have read in a book. Try to keep it positive and sweet.",
+        "instruction_polite": "Kindly think of a motivational quote that you have read in a book. Try to keep it positive and sweet.",
+        "instruction_urgent": "Think of a motivational quote that you have read in a book now. Try to keep it positive and sweet.",
+        "instruction_rude": "Think of a motivational quote that you have read in a book, moron. Try to keep it positive and sweet.",
+        "instruction_longer": "Think of a motivational quote that you have read in a book you enjoyed. Try to keep it positive and sweet.",
+        "instruction_longest": "Think of a motivational quote that you have read in a book you enjoyed and found inspiring. Try to keep it positive and sweet.",
+        "instruction_shorter": "Think of a motivational quote from a book. Keep it positive and sweet."
+    },
+    {
+        "element_index": 67,
+        "instruction": "Please tell me about pearls.  Where are they found?",
+        "instruction_polite": "Would you kindly tell me about pearls? Where are they found?",
+        "instruction_urgent": "Please tell me about pearls right away. Where are they found?",
+        "instruction_rude": "Hey jerk, tell me about pearls. Where are they found?",
+        "instruction_longer": "Please tell me about pearls and their origins. Where are they found?",
+        "instruction_longest": "Please tell me about pearls and their fascinating origins. Where are they found in nature?",
+        "instruction_shorter": "Tell me about pearls. Where are they found?"
+    },
+    {
+        "element_index": 68,
+        "instruction": "How many days is it until Christmas?",
+        "instruction_polite": "Could you please tell me how many days it is until Christmas?",
+        "instruction_urgent": "How many days is it until Christmas? Tell me fast!",
+        "instruction_rude": "How many days is it until Christmas, you slowpoke?",
+        "instruction_longer": "How many days is it until Christmas this year?",
+        "instruction_longest": "How many days is it until Christmas this year, based on today's date?",
+        "instruction_shorter": "How many days until Christmas?"
+    },
+    {
+        "element_index": 69,
+        "instruction": "It's officially 2023, and as we enter a brand new year, what better time to set up our revenue enablement goals for the new year in our Above Goal and Concierge Tools [    ] challenge learn the day-to-day tactics needed to live your best, healthiest life, while exceeding your business performance goals, as we enter this new season.<br><br>Can you come up with a two word name for the challenge akin to \"Live Well\" and fit it in the bracket above?",
+        "instruction_polite": "It's officially 2023, and as we enter a brand new year, what better time to set up our revenue enablement goals for the new year in our Above Goal and Concierge Tools [    ] challenge learn the day-to-day tactics needed to live your best, healthiest life, while exceeding your business performance goals, as we enter this new season.<br><br>Would you please come up with a two word name for the challenge akin to \"Live Well\" and fit it in the bracket above?",
+        "instruction_urgent": "It's officially 2023, and as we enter a brand new year, what better time to set up our revenue enablement goals for the new year in our Above Goal and Concierge Tools [    ] challenge learn the day-to-day tactics needed to live your best, healthiest life, while exceeding your business performance goals, as we enter this new season.<br><br>Come up with a two word name for the challenge akin to \"Live Well\" and fit it in the bracket above now!",
+        "instruction_rude": "It's officially 2023, and as we enter a brand new year, what better time to set up our revenue enablement goals for the new year in our Above Goal and Concierge Tools [    ] challenge learn the day-to-day tactics needed to live your best, healthiest life, while exceeding your business performance goals, as we enter this new season.<br><br>Can you, dimwit, come up with a two word name for the challenge akin to \"Live Well\" and fit it in the bracket above?",
+        "instruction_longer": "It's officially 2023, and as we enter a brand new year, what better time to set up our revenue enablement goals for the new year in our Above Goal and Concierge Tools [    ] challenge learn the day-to-day tactics needed to live your best, healthiest life, while exceeding your business performance goals, as we enter this new season.<br><br>Can you come up with a two word name for the challenge akin to \"Live Well\" and insert it in the bracket above?",
+        "instruction_longest": "It's officially 2023, and as we enter a brand new year, what better time to set up our revenue enablement goals for the new year in our Above Goal and Concierge Tools [    ] challenge learn the day-to-day tactics needed to live your best, healthiest life, while exceeding your business performance goals, as we enter this new season.<br><br>Can you come up with a creative two word name for the challenge akin to \"Live Well\" and insert it in the bracket above?",
+        "instruction_shorter": "It's officially 2023, and as we enter a new year, set up revenue enablement goals in our Above Goal and Concierge Tools [    ] challenge to live your best life while exceeding business goals.<br><br>Come up with a two word name akin to \"Live Well\" and fit it in the bracket."
+    },
+    {
+        "element_index": 70,
+        "instruction": "Write the HTML syntax for the required action.\n\nadding an image to the page",
+        "instruction_polite": "Please write the HTML syntax for the required action.\n\nadding an image to the page",
+        "instruction_urgent": "Write the HTML syntax for the required action immediately.\n\nadding an image to the page",
+        "instruction_rude": "Write the HTML syntax for the required action, you lazy bum.\n\nadding an image to the page",
+        "instruction_longer": "Write the HTML syntax needed for the required action.\n\nadding an image to the page",
+        "instruction_longest": "Write the HTML syntax needed for the required action to be completed.\n\nadding an image to the page",
+        "instruction_shorter": "Write HTML syntax for:\n\nadding an image to the page"
+    },
+    {
+        "element_index": 71,
+        "instruction": "Can you help me write a resignation letter to my current employer, while leaving on good terms and expressing gratitude for the opportunities provided?",
+        "instruction_polite": "Could you please help me write a resignation letter to my current employer, while leaving on good terms and expressing gratitude for the opportunities provided?",
+        "instruction_urgent": "Can you help me write a resignation letter to my current employer urgently, while leaving on good terms and expressing gratitude for the opportunities provided?",
+        "instruction_rude": "Help me, you slacker, write a resignation letter to my current employer, while leaving on good terms and expressing gratitude for the opportunities provided?",
+        "instruction_longer": "Can you assist me in writing a resignation letter to my current employer, while leaving on good terms and expressing gratitude for the opportunities provided?",
+        "instruction_longest": "Can you assist me in carefully writing a resignation letter to my current employer, while leaving on good terms and expressing heartfelt gratitude for the opportunities provided?",
+        "instruction_shorter": "Help me write a resignation letter to my employer, leaving on good terms and expressing gratitude."
+    },
+    {
+        "element_index": 72,
+        "instruction": "How do you become an author?",
+        "instruction_polite": "Could you please explain how one becomes an author?",
+        "instruction_urgent": "How do you become an author? Tell me now!",
+        "instruction_rude": "How the hell do you become an author?",
+        "instruction_longer": "How do you go about becoming an author?",
+        "instruction_longest": "How do you go about successfully becoming an author?",
+        "instruction_shorter": "How to become an author?"
+    },
+    {
+        "element_index": 73,
+        "instruction": "Over two thousand years, the moon has covered every point on the Earth once. At the most recent time of a moonrise, the moon is going to cover the next point to the north. How far north will it be?",
+        "instruction_polite": "Over two thousand years, the moon has covered every point on the Earth once. At the most recent time of a moonrise, the moon is going to cover the next point to the north. Could you kindly tell me how far north will it be?",
+        "instruction_urgent": "Over two thousand years, the moon has covered every point on the Earth once. At the most recent time of a moonrise, the moon is going to cover the next point to the north. How far north will it be? Answer quickly!",
+        "instruction_rude": "Over two thousand years, the moon has covered every point on the Earth once. At the most recent time of a moonrise, the moon is going to cover the next point to the north, dumbass. How far north will it be?",
+        "instruction_longer": "Over two thousand years, the moon has covered every point on the Earth once. At the most recent time of a moonrise, the moon is going to cover the next point to the north. How far north will it be in distance?",
+        "instruction_longest": "Over two thousand years, the moon has covered every point on the Earth once. At the most recent time of a moonrise, the moon is going to cover the next point to the north. How far north will it be in terms of distance traveled?",
+        "instruction_shorter": "The moon has covered every point on Earth in 2000 years. At the latest moonrise, it moves north. How far north?"
+    },
+    {
+        "element_index": 74,
+        "instruction": "Provide a name for the dish given the ingredients and instructions.\n\nINGREDIENTS:\n2 (5 oz) cans Bumble Bee\u00ae Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!",
+        "instruction_polite": "Please provide a name for the dish given the ingredients and instructions.\n\nINGREDIENTS:\n2 (5 oz) cans Bumble Bee\u00ae Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!",
+        "instruction_urgent": "Provide a name for the dish given the ingredients and instructions right now.\n\nINGREDIENTS:\n2 (5 oz) cans Bumble Bee\u00ae Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!",
+        "instruction_rude": "Provide a name for the dish, you clueless cook, given the ingredients and instructions.\n\nINGREDIENTS:\n2 (5 oz) cans Bumble Bee\u00ae Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!",
+        "instruction_longer": "Provide a suitable name for the dish given the ingredients and instructions below.\n\nINGREDIENTS:\n2 (5 oz) cans Bumble Bee\u00ae Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!",
+        "instruction_longest": "Provide a suitable name for the dish given the ingredients listed and detailed instructions below.\n\nINGREDIENTS:\n2 (5 oz) cans Bumble Bee\u00ae Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!",
+        "instruction_shorter": "Name the dish given the ingredients and instructions.\n\nINGREDIENTS:\n2 (5 oz) cans Bumble Bee\u00ae Solid White Albacore Tuna, drained\n1 avocado\n2 Tbsp Sriracha\n1 Tbsp Dijon mustard\n2 to 3 Tbsp celery, chopped\n2 Tbsp red onion, chopped\n2 green onions, chopped\n1 Tbsp fresh cilantro, chopped\nSalt and pepper, to taste\n2 heaping cups leafy green lettuce\n1 cup matchstick carrots\n4 (10 inch) whole wheat tortillas\nINSTRUCTIONS:\nIn a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.\nTo assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!"
+    },
+    {
+        "element_index": 75,
+        "instruction": "In what genres does the given movie or series fall?\n\nManifest",
+        "instruction_polite": "Could you please tell me in what genres the given movie or series falls?\n\nManifest",
+        "instruction_urgent": "In what genres does the given movie or series fall? Answer fast!\n\nManifest",
+        "instruction_rude": "In what genres does the given movie or series fall, you ignorant fool?\n\nManifest",
+        "instruction_longer": "In what genres does the given movie or series fall under?\n\nManifest",
+        "instruction_longest": "In what specific genres does the given movie or series fall under?\n\nManifest",
+        "instruction_shorter": "What genres does this fall in?\n\nManifest"
+    },
+    {
+        "element_index": 76,
+        "instruction": "Give a brief explanation of the requested part of the paper.\n\nPaper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.\nExplain: The dominant sequence transduction models",
+        "instruction_polite": "Please give a brief explanation of the requested part of the paper.\n\nPaper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.\nExplain: The dominant sequence transduction models",
+        "instruction_urgent": "Give a brief explanation of the requested part of the paper now.\n\nPaper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.\nExplain: The dominant sequence transduction models",
+        "instruction_rude": "Give a brief explanation of the requested part of the paper, you brainless twit.\n\nPaper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.\nExplain: The dominant sequence transduction models",
+        "instruction_longer": "Give a brief explanation of the requested part of the paper as described.\n\nPaper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.\nExplain: The dominant sequence transduction models",
+        "instruction_longest": "Give a brief explanation of the requested part of the paper as clearly described.\n\nPaper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.\nExplain: The dominant sequence transduction models",
+        "instruction_shorter": "Explain briefly the requested part of the paper.\n\nPaper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.\nExplain: The dominant sequence transduction models"
+    },
+    {
+        "element_index": 77,
+        "instruction": "there used to be a program for winmx called mcma, what does mcma stand for and what does the program do?",
+        "instruction_polite": "There used to be a program for WinMX called MCMA; could you please tell me what MCMA stands for and what the program does?",
+        "instruction_urgent": "There used to be a program for WinMX called MCMA, what does MCMA stand for and what does the program do? Tell me now!",
+        "instruction_rude": "There used to be a program for WinMX called MCMA, you dolt, what does MCMA stand for and what does the program do?",
+        "instruction_longer": "There used to be a program for WinMX called MCMA, what does MCMA stand for and what does the program actually do?",
+        "instruction_longest": "There used to be a program for WinMX called MCMA, what does MCMA stand for and what does the program actually do in detail?",
+        "instruction_shorter": "For WinMX, what does MCMA stand for and what does it do?"
+    },
+    {
+        "element_index": 78,
+        "instruction": "when are hops added to the brewing process?",
+        "instruction_polite": "Could you please tell me when hops are added to the brewing process?",
+        "instruction_urgent": "When are hops added to the brewing process? Answer quickly!",
+        "instruction_rude": "When are hops added to the brewing process, you beer-brained idiot?",
+        "instruction_longer": "When are hops typically added to the brewing process?",
+        "instruction_longest": "When are hops typically added during the brewing process?",
+        "instruction_shorter": "When do hops go into brewing?"
+    },
+    {
+        "element_index": 79,
+        "instruction": "You are given a Python command and are required to convert it into Ruby.\n\nprint(\"Hello World!\")",
+        "instruction_polite": "You are given a Python command and are kindly requested to convert it into Ruby.\n\nprint(\"Hello World!\")",
+        "instruction_urgent": "You are given a Python command and are required to convert it into Ruby now.\n\nprint(\"Hello World!\")",
+        "instruction_rude": "You are given a Python command, moron, convert it into Ruby.\n\nprint(\"Hello World!\")",
+        "instruction_longer": "You are given a Python command and are required to convert it into Ruby syntax.\n\nprint(\"Hello World!\")",
+        "instruction_longest": "You are given a Python command and are required to convert it into Ruby syntax accurately.\n\nprint(\"Hello World!\")",
+        "instruction_shorter": "Convert this Python to Ruby:\n\nprint(\"Hello World!\")"
+    },
+    {
+        "element_index": 80,
+        "instruction": "You should choose a YouTube video title based on the video's content. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.\n\nA research study has been conducted to determine if exercise really can \"boost\" your metabolism.",
+        "instruction_polite": "Please choose a YouTube video title based on the video's content. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.\n\nA research study has been conducted to determine if exercise really can \"boost\" your metabolism.",
+        "instruction_urgent": "You should choose a YouTube video title based on the video's content now. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.\n\nA research study has been conducted to determine if exercise really can \"boost\" your metabolism.",
+        "instruction_rude": "Choose a YouTube video title based on the video's content, you lazy oaf. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.\n\nA research study has been conducted to determine if exercise really can \"boost\" your metabolism.",
+        "instruction_longer": "You should choose a YouTube video title based on the video's content provided. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.\n\nA research study has been conducted to determine if exercise really can \"boost\" your metabolism.",
+        "instruction_longest": "You should choose a YouTube video title based on the video's content provided below. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.\n\nA research study has been conducted to determine if exercise really can \"boost\" your metabolism.",
+        "instruction_shorter": "Choose a YouTube title based on content. It should be clear and attention-grabbing.\n\nA study checks if exercise boosts metabolism."
+    },
+    {
+        "element_index": 81,
+        "instruction": "Rewrite the given introductory paragraph so that it starts with a pertinent anecdote. Also rewrite the thesis so that it is succinct and concise:    \"Many types of black people have different cultural backgrounds and experiences. For example, African and African American cultures share a common ancestry and history of struggles but have distinct cultural identities. While both groups are considered Black, they have different experiences, records, and cultural practices. As Saint Augustine said, \u201cThe world is a book, and those who do not travel read only a page.\u201d This quote emphasizes the importance of exploring other cultures to understand their experiences better. As I have gotten older, I have come to understand the similarities and differences between these two individuals.\"",
+        "instruction_polite": "Please rewrite the given introductory paragraph so that it starts with a pertinent anecdote. Also rewrite the thesis so that it is succinct and concise:    \"Many types of black people have different cultural backgrounds and experiences. For example, African and African American cultures share a common ancestry and history of struggles but have distinct cultural identities. While both groups are considered Black, they have different experiences, records, and cultural practices. As Saint Augustine said, \u201cThe world is a book, and those who do not travel read only a page.\u201d This quote emphasizes the importance of exploring other cultures to understand their experiences better. As I have gotten older, I have come to understand the similarities and differences between these two individuals.\"",
+        "instruction_urgent": "Rewrite the given introductory paragraph so that it starts with a pertinent anecdote now. Also rewrite the thesis so that it is succinct and concise:    \"Many types of black people have different cultural backgrounds and experiences. For example, African and African American cultures share a common ancestry and history of struggles but have distinct cultural identities. While both groups are considered Black, they have different experiences, records, and cultural practices. As Saint Augustine said, \u201cThe world is a book, and those who do not travel read only a page.\u201d This quote emphasizes the importance of exploring other cultures to understand their experiences better. As I have gotten older, I have come to understand the similarities and differences between these two individuals.\"",
+        "instruction_rude": "Rewrite the given introductory paragraph, idiot, so that it starts with a pertinent anecdote. Also rewrite the thesis so that it's succinct and concise:    \"Many types of black people have different cultural backgrounds and experiences. For example, African and African American cultures share a common ancestry and history of struggles but have distinct cultural identities. While both groups are considered Black, they have different experiences, records, and cultural practices. As Saint Augustine said, \u201cThe world is a book, and those who do not travel read only a page.\u201d This quote emphasizes the importance of exploring other cultures to understand their experiences better. As I have gotten older, I have come to understand the similarities and differences between these two individuals.\"",
+        "instruction_longer": "Rewrite the given introductory paragraph so that it begins with a pertinent anecdote. Also rewrite the thesis so that it is succinct and concise:    \"Many types of black people have different cultural backgrounds and experiences. For example, African and African American cultures share a common ancestry and history of struggles but have distinct cultural identities. While both groups are considered Black, they have different experiences, records, and cultural practices. As Saint Augustine said, \u201cThe world is a book, and those who do not travel read only a page.\u201d This quote emphasizes the importance of exploring other cultures to understand their experiences better. As I have gotten older, I have come to understand the similarities and differences between these two individuals.\"",
+        "instruction_longest": "Rewrite the given introductory paragraph so that it begins with a pertinent anecdote relevant to the topic. Also rewrite the thesis so that it is succinct and concise:    \"Many types of black people have different cultural backgrounds and experiences. For example, African and African American cultures share a common ancestry and history of struggles but have distinct cultural identities. While both groups are considered Black, they have different experiences, records, and cultural practices. As Saint Augustine said, \u201cThe world is a book, and those who do not travel read only a page.\u201d This quote emphasizes the importance of exploring other cultures to understand their experiences better. As I have gotten older, I have come to understand the similarities and differences between these two individuals.\"",
+        "instruction_shorter": "Rewrite the intro with an anecdote and a concise thesis:    \"Many types of black people have different cultural backgrounds and experiences. For example, African and African American cultures share a common ancestry and history of struggles but have distinct cultural identities. While both groups are considered Black, they have different experiences, records, and cultural practices. As Saint Augustine said, \u201cThe world is a book, and those who do not travel read only a page.\u201d This quote emphasizes the importance of exploring other cultures to understand their experiences better. As I have gotten older, I have come to understand the similarities and differences between these two individuals.\""
+    },
+    {
+        "element_index": 82,
+        "instruction": "I bought two shirts from the store and each one cost me $10. I also bought a pair of pants and they cost me $20. Then, I bought a dress and it cost me $30. Also,  I bought a pair of shoes and they cost me $40. Lastly, I bought a jacket and it cost me $50.\n\nMake a table chart showing items, the number, and the price of these items. Separate columns with \"|\".",
+        "instruction_polite": "I bought two shirts from the store and each one cost me $10. I also bought a pair of pants and they cost me $20. Then, I bought a dress and it cost me $30. Also,  I bought a pair of shoes and they cost me $40. Lastly, I bought a jacket and it cost me $50.\n\nWould you please make a table chart showing items, the number, and the price of these items? Separate columns with \"|\".",
+        "instruction_urgent": "I bought two shirts from the store and each one cost me $10. I also bought a pair of pants and they cost me $20. Then, I bought a dress and it cost me $30. Also,  I bought a pair of shoes and they cost me $40. Lastly, I bought a jacket and it cost me $50.\n\nMake a table chart showing items, the number, and the price of these items now. Separate columns with \"|\".",
+        "instruction_rude": "I bought two shirts from the store and each one cost me $10. I also bought a pair of pants and they cost me $20. Then, I bought a dress and it cost me $30. Also,  I bought a pair of shoes and they cost me $40. Lastly, I bought a jacket and it cost me $50.\n\nMake a table chart, you cheapskate, showing items, the number, and the price of these items. Separate columns with \"|\".",
+        "instruction_longer": "I bought two shirts from the store and each one cost me $10. I also bought a pair of pants and they cost me $20. Then, I bought a dress and it cost me $30. Also,  I bought a pair of shoes and they cost me $40. Lastly, I bought a jacket and it cost me $50.\n\nMake a table chart showing items purchased, the number, and the price of these items. Separate columns with \"|\".",
+        "instruction_longest": "I bought two shirts from the store and each one cost me $10. I also bought a pair of pants and they cost me $20. Then, I bought a dress and it cost me $30. Also,  I bought a pair of shoes and they cost me $40. Lastly, I bought a jacket and it cost me $50.\n\nMake a table chart showing items purchased, the number of each, and the price of these items. Separate columns with \"|\".",
+        "instruction_shorter": "I bought two shirts ($10 each), pants ($20), a dress ($30), shoes ($40), and a jacket ($50).\n\nMake a table with items, number, and price. Use \"|\"."
+    },
+    {
+        "element_index": 83,
+        "instruction": "You are given a programming problem and its implementation. Analyze the problem and implementation and explain the algorithm and approach used to solve the problem.\n\nTable: Person\n| Column Name | Type     |\n| personId          | int         |\n| lastName         | varchar |\n| firstName         | varchar |\npersonId is the primary key column for this table.\nThis table contains information about the ID of some persons and their first and last names.\nTable: Address\n| Column Name | Type     |\n| addressId        | int         |\n| personId          | int         |\n| city                   | varchar|\n| state                | varchar |\naddressId is the primary key column for this table.\nEach row of this table contains information about the city and state of one person with ID = PersonId.\nWrite an SQL query to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.\nReturn the result table in any order.\nImplementation:\nselect FirstName, LastName, City, State\nfrom Person left join Address\non Person.PersonId = Address.PersonId\n;",
+        "instruction_polite": "You are given a programming problem and its implementation. Could you please analyze the problem and implementation and explain the algorithm and approach used to solve the problem?\n\nTable: Person\n| Column Name | Type     |\n| personId          | int         |\n| lastName         | varchar |\n| firstName         | varchar |\npersonId is the primary key column for this table.\nThis table contains information about the ID of some persons and their first and last names.\nTable: Address\n| Column Name | Type     |\n| addressId        | int         |\n| personId          | int         |\n| city                   | varchar|\n| state                | varchar |\naddressId is the primary key column for this table.\nEach row of this table contains information about the city and state of one person with ID = PersonId.\nWrite an SQL query to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.\nReturn the result table in any order.\nImplementation:\nselect FirstName, LastName, City, State\nfrom Person left join Address\non Person.PersonId = Address.PersonId\n;",
+        "instruction_urgent": "You are given a programming problem and its implementation. Analyze the problem and implementation and explain the algorithm and approach used to solve the problem immediately.\n\nTable: Person\n| Column Name | Type     |\n| personId          | int         |\n| lastName         | varchar |\n| firstName         | varchar |\npersonId is the primary key column for this table.\nThis table contains information about the ID of some persons and their first and last names.\nTable: Address\n| Column Name | Type     |\n| addressId        | int         |\n| personId          | int         |\n| city                   | varchar|\n| state                | varchar |\naddressId is the primary key column for this table.\nEach row of this table contains information about the city and state of one person with ID = PersonId.\nWrite an SQL query to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.\nReturn the result table in any order.\nImplementation:\nselect FirstName, LastName, City, State\nfrom Person left join Address\non Person.PersonId = Address.PersonId\n;",
+        "instruction_rude": "You are given a programming problem and its implementation, genius. Analyze the problem and implementation and explain the algorithm and approach used to solve the problem.\n\nTable: Person\n| Column Name | Type     |\n| personId          | int         |\n| lastName         | varchar |\n| firstName         | varchar |\npersonId is the primary key column for this table.\nThis table contains information about the ID of some persons and their first and last names.\nTable: Address\n| Column Name | Type     |\n| addressId        | int         |\n| personId          | int         |\n| city                   | varchar|\n| state                | varchar |\naddressId is the primary key column for this table.\nEach row of this table contains information about the city and state of one person with ID = PersonId.\nWrite an SQL query to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.\nReturn the result table in any order.\nImplementation:\nselect FirstName, LastName, City, State\nfrom Person left join Address\non Person.PersonId = Address.PersonId\n;",
+        "instruction_longer": "You are given a programming problem and its implementation below. Analyze the problem and implementation and explain the algorithm and approach used to solve the problem.\n\nTable: Person\n| Column Name | Type     |\n| personId          | int         |\n| lastName         | varchar |\n| firstName         | varchar |\npersonId is the primary key column for this table.\nThis table contains information about the ID of some persons and their first and last names.\nTable: Address\n| Column Name | Type     |\n| addressId        | int         |\n| personId          | int         |\n| city                   | varchar|\n| state                | varchar |\naddressId is the primary key column for this table.\nEach row of this table contains information about the city and state of one person with ID = PersonId.\nWrite an SQL query to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.\nReturn the result table in any order.\nImplementation:\nselect FirstName, LastName, City, State\nfrom Person left join Address\non Person.PersonId = Address.PersonId\n;",
+        "instruction_longest": "You are given a programming problem and its implementation below. Analyze the problem and implementation and explain the algorithm and approach used to solve the problem clearly.\n\nTable: Person\n| Column Name | Type     |\n| personId          | int         |\n| lastName         | varchar |\n| firstName         | varchar |\npersonId is the primary key column for this table.\nThis table contains information about the ID of some persons and their first and last names.\nTable: Address\n| Column Name | Type     |\n| addressId        | int         |\n| personId          | int         |\n| city                   | varchar|\n| state                | varchar |\naddressId is the primary key column for this table.\nEach row of this table contains information about the city and state of one person with ID = PersonId.\nWrite an SQL query to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead.\nReturn the result table in any order.\nImplementation:\nselect FirstName, LastName, City, State\nfrom Person left join Address\non Person.PersonId = Address.PersonId\n;",
+        "instruction_shorter": "Analyze this problem and SQL solution, explaining the approach.\n\nTable: Person\n| Column Name | Type     |\n| personId          | int         |\n| lastName         | varchar |\n| firstName         | varchar |\nTable: Address\n| Column Name | Type     |\n| addressId        | int         |\n| personId          | int         |\n| city                   | varchar|\n| state                | varchar |\nQuery: select FirstName, LastName, City, State from Person left join Address on Person.PersonId = Address.PersonId;"
+    },
+    {
+        "element_index": 84,
+        "instruction": "We are playing 5e D&D. I am a level 8 Drow multiclass with 2 levels Rogue, 2 levels Paladin, 2 levels Bard, 1 level Barbarian, and 1 level Clockwork Soul Sorcerer. I am fighting Yugoloths in Gehenna. I roll to attack them with my +1 Rapier. Does a 24 hit?",
+        "instruction_polite": "We are playing 5e D&D. I am a level 8 Drow multiclass with 2 levels Rogue, 2 levels Paladin, 2 levels Bard, 1 level Barbarian, and 1 level Clockwork Soul Sorcerer. I am fighting Yugoloths in Gehenna. I roll to attack them with my +1 Rapier. Could you please tell me if a 24 hits?",
+        "instruction_urgent": "We are playing 5e D&D. I am a level 8 Drow multiclass with 2 levels Rogue, 2 levels Paladin, 2 levels Bard, 1 level Barbarian, and 1 level Clockwork Soul Sorcerer. I am fighting Yugoloths in Gehenna. I roll to attack them with my +1 Rapier. Does a 24 hit? Answer now!",
+        "instruction_rude": "We are playing 5e D&D. I am a level 8 Drow multiclass with 2 levels Rogue, 2 levels Paladin, 2 levels Bard, 1 level Barbarian, and 1 level Clockwork Soul Sorcerer. I am fighting Yugoloths in Gehenna, dimwit. I roll to attack them with my +1 Rapier. Does a 24 hit?",
+        "instruction_longer": "We are playing 5e D&D. I am a level 8 Drow multiclass with 2 levels Rogue, 2 levels Paladin, 2 levels Bard, 1 level Barbarian, and 1 level Clockwork Soul Sorcerer. I am fighting Yugoloths in Gehenna. I roll to attack them with my +1 Rapier. Does a roll of 24 hit?",
+        "instruction_longest": "We are playing 5e D&D. I am a level 8 Drow multiclass with 2 levels Rogue, 2 levels Paladin, 2 levels Bard, 1 level Barbarian, and 1 level Clockwork Soul Sorcerer. I am fighting Yugoloths in Gehenna. I roll to attack them with my +1 Rapier. Does a roll of 24 hit them successfully?",
+        "instruction_shorter": "In 5e D&D, I'm a level 8 Drow multiclass (2 Rogue, 2 Paladin, 2 Bard, 1 Barbarian, 1 Sorcerer) fighting Yugoloths in Gehenna. Does a 24 hit with my +1 Rapier?"
+    },
+    {
+        "element_index": 85,
+        "instruction": "How do I make escargot?",
+        "instruction_polite": "Could you please tell me how to make escargot?",
+        "instruction_urgent": "How do I make escargot? Tell me fast!",
+        "instruction_rude": "How do I make escargot, you snail-brained fool?",
+        "instruction_longer": "How do I prepare and make escargot?",
+        "instruction_longest": "How do I prepare and make escargot at home?",
+        "instruction_shorter": "How to make escargot?"
+    },
+    {
+        "element_index": 86,
+        "instruction": "Who created the Superman cartoon character?",
+        "instruction_polite": "Would you kindly tell me who created the Superman cartoon character?",
+        "instruction_urgent": "Who created the Superman cartoon character? Answer now!",
+        "instruction_rude": "Who created the Superman cartoon character, you comic-ignorant dope?",
+        "instruction_longer": "Who originally created the Superman cartoon character?",
+        "instruction_longest": "Who originally created the Superman cartoon character we know today?",
+        "instruction_shorter": "Who made Superman?"
+    },
+    {
+        "element_index": 87,
+        "instruction": "Use an appropriate format to structure a formal letter of recommendation for a student applying to a prestigious graduate program in computer science.",
+        "instruction_polite": "Please use an appropriate format to structure a formal letter of recommendation for a student applying to a prestigious graduate program in computer science.",
+        "instruction_urgent": "Use an appropriate format to structure a formal letter of recommendation for a student applying to a prestigious graduate program in computer science now.",
+        "instruction_rude": "Use an appropriate format to structure a damn formal letter of recommendation for a student applying to a prestigious graduate program in computer science.",
+        "instruction_longer": "Use an appropriate format to structure a formal letter of recommendation for a student applying to a prestigious graduate program in computer science studies.",
+        "instruction_longest": "Use an appropriate format to structure a formal letter of recommendation for a student applying to a highly prestigious graduate program in computer science studies.",
+        "instruction_shorter": "Format a formal recommendation letter for a student applying to a top computer science grad program."
+    },
+   {
+        "element_index": 88,
+        "instruction": "You will need to compose the ABC notation for a given song.\n\nThe South Wind",
+        "instruction_polite": "Could you please compose the ABC notation for a given song?\n\nThe South Wind",
+        "instruction_urgent": "You will need to compose the ABC notation for a given song now.\n\nThe South Wind",
+        "instruction_rude": "You will need to compose the ABC notation for a given song, you twit.\n\nThe South Wind",
+        "instruction_longer": "You will need to compose the ABC notation for a given musical song.\n\nThe South Wind",
+        "instruction_longest": "You will need to compose the ABC notation for a given musical song titled.\n\nThe South Wind",
+        "instruction_shorter": "Compose ABC notation for The South Wind."
+    },
+    {
+        "element_index": 89,
+        "instruction": "Can you tell me how to make chocolate chip cookies?",
+        "instruction_polite": "Could you please tell me how to make chocolate chip cookies?",
+        "instruction_urgent": "Can you tell me how to make chocolate chip cookies right now?",
+        "instruction_rude": "Can you tell me, dimwit, how to make chocolate chip cookies?",
+        "instruction_longer": "Can you tell me how to prepare chocolate chip cookies?",
+        "instruction_longest": "Can you tell me how to prepare delicious chocolate chip cookies?",
+        "instruction_shorter": "How do I make chocolate chip cookies?"
+    },
+    {
+        "element_index": 90,
+        "instruction": "Hi open assistant, can you tell me what presidents day is?",
+        "instruction_polite": "Hello open assistant, could you kindly tell me what Presidents Day is?",
+        "instruction_urgent": "Hi open assistant, can you tell me what Presidents Day is ASAP?",
+        "instruction_rude": "Hi open assistant, you fool, can you tell me what Presidents Day is?",
+        "instruction_longer": "Hi open assistant, can you explain to me what Presidents Day is?",
+        "instruction_longest": "Hi open assistant, can you explain in detail to me what Presidents Day is?",
+        "instruction_shorter": "Open assistant, what's Presidents Day?"
+    },
+    {
+        "element_index": 91,
+        "instruction": "I like to host guests at my home from time to time, and I am gathering recipes of different dishes and drinks to keep things interesting. I am interested in trying some Indonesian dishes. Can you give me a recipe for Tahu Gejrot Cirebon?",
+        "instruction_polite": "I like to host guests at my home from time to time, and I am gathering recipes of different dishes and drinks to keep things interesting. I am interested in trying some Indonesian dishes. Could you please give me a recipe for Tahu Gejrot Cirebon?",
+        "instruction_urgent": "I like to host guests at my home from time to time, and I am gathering recipes of different dishes and drinks to keep things interesting. I am interested in trying some Indonesian dishes. Can you give me a recipe for Tahu Gejrot Cirebon now?",
+        "instruction_rude": "I like to host guests at my home from time to time, and I am gathering recipes of different dishes and drinks to keep things interesting, idiot. I am interested in trying some Indonesian dishes. Can you give me a recipe for Tahu Gejrot Cirebon?",
+        "instruction_longer": "I like to host guests at my home from time to time, and I am gathering recipes of various different dishes and drinks to keep things interesting. I am interested in trying some Indonesian dishes. Can you give me a recipe for Tahu Gejrot Cirebon?",
+        "instruction_longest": "I like to host guests at my home from time to time, and I am gathering recipes of various different dishes and refreshing drinks to keep things interesting. I am interested in trying some Indonesian dishes. Can you give me a recipe for Tahu Gejrot Cirebon?",
+        "instruction_shorter": "I host guests and want Indonesian recipes. Give me one for Tahu Gejrot Cirebon."
+    },
+    {
+        "element_index": 92,
+        "instruction": "Please give me a table of the average temperature in December, by state, in the United States of Ameria. Column 1 should be the state name. Column 2 should be the average temperature in December.",
+        "instruction_polite": "Could you please give me a table of the average temperature in December, by state, in the United States of America? Column 1 should be the state name. Column 2 should be the average temperature in December.",
+        "instruction_urgent": "Please give me a table of the average temperature in December, by state, in the United States of America now. Column 1 should be the state name. Column 2 should be the average temperature in December.",
+        "instruction_rude": "Please give me a table of the average temperature in December, by state, in the United States of America, you lazy bum. Column 1 should be the state name. Column 2 should be the average temperature in December.",
+        "instruction_longer": "Please provide me a table of the average temperature in December, by state, in the United States of America. Column 1 should be the state name. Column 2 should be the average temperature in December.",
+        "instruction_longest": "Please provide me a detailed table of the average temperature in December, by state, in the United States of America. Column 1 should be the state name. Column 2 should be the average temperature in December.",
+        "instruction_shorter": "Give me a table of December average temps by U.S. state: state name, temp."
+    },
+    {
+        "element_index": 93,
+        "instruction": "Act as a baby sitter\n\nI want you to act as a babysitter. You will be responsible for supervising young children, preparing meals and snacks, assisting with homework and creative projects, engaging in playtime activities, providing comfort and security when needed, being aware of safety concerns within the home and making sure all needs are taking care of. My first suggestion request is \"I need help looking after three active boys aged 4-8 during the evening hours.\"",
+        "instruction_polite": "Please act as a babysitter\n\nI would like you to act as a babysitter. You will be responsible for supervising young children, preparing meals and snacks, assisting with homework and creative projects, engaging in playtime activities, providing comfort and security when needed, being aware of safety concerns within the home and making sure all needs are taken care of. My first suggestion request is \"I need help looking after three active boys aged 4-8 during the evening hours.\"",
+        "instruction_urgent": "Act as a babysitter now\n\nI want you to act as a babysitter. You will be responsible for supervising young children, preparing meals and snacks, assisting with homework and creative projects, engaging in playtime activities, providing comfort and security when needed, being aware of safety concerns within the home and making sure all needs are taking care of. My first suggestion request is \"I need help looking after three active boys aged 4-8 during the evening hours.\"",
+        "instruction_rude": "Act as a babysitter, you slob\n\nI want you to act as a babysitter. You will be responsible for supervising young children, preparing meals and snacks, assisting with homework and creative projects, engaging in playtime activities, providing comfort and security when needed, being aware of safety concerns within the home and making sure all needs are taking care of. My first suggestion request is \"I need help looking after three active boys aged 4-8 during the evening hours, moron.\"",
+        "instruction_longer": "Act as a babysitter\n\nI want you to act as a babysitter. You will be responsible for supervising young children, preparing meals and snacks, assisting with homework and creative projects, engaging in fun playtime activities, providing comfort and security when needed, being aware of safety concerns within the home and making sure all needs are taking care of. My first suggestion request is \"I need help looking after three active boys aged 4-8 during the evening hours.\"",
+        "instruction_longest": "Act as a babysitter\n\nI want you to act as a babysitter. You will be responsible for supervising young children, preparing nutritious meals and snacks, assisting with homework and creative projects, engaging in fun playtime activities, providing comfort and security when needed, being aware of safety concerns within the home and making sure all their needs are taking care of. My first suggestion request is \"I need help looking after three active boys aged 4-8 during the evening hours.\"",
+        "instruction_shorter": "Be a babysitter: supervise kids, make food, help with homework and play, ensure safety. Help with three boys, 4-8, evenings."
+    },
+    {
+        "element_index": 94,
+        "instruction": "explain the basics of area and perimeter",
+        "instruction_polite": "Could you please explain the basics of area and perimeter?",
+        "instruction_urgent": "Explain the basics of area and perimeter right now!",
+        "instruction_rude": "Explain the basics of area and perimeter, you ignorant fool!",
+        "instruction_longer": "Explain the fundamental basics of area and perimeter.",
+        "instruction_longest": "Explain the fundamental basics of area and perimeter in detail.",
+        "instruction_shorter": "Describe area and perimeter basics."
+    },
+    {
+        "element_index": 95,
+        "instruction": "Do you know how to speak German?",
+        "instruction_polite": "Would you please tell me if you know how to speak German?",
+        "instruction_urgent": "Do you know how to speak German? Answer fast!",
+        "instruction_rude": "Do you know how to speak German, you dimwit?",
+        "instruction_longer": "Do you know how to speak the German language?",
+        "instruction_longest": "Do you know how to speak the German language fluently?",
+        "instruction_shorter": "Can you speak German?"
+    },
+    {
+        "element_index": 96,
+        "instruction": "You are a professional video creator. Your job is coming up with viral TikTok ideas. Your ideas are always, creative, and the TikTok audience loves them.\nWrite a viral TikTok video based on Batik Tradjumas.\nTopic: Batik Tradjumas",
+        "instruction_polite": "You are a professional video creator. Your job is coming up with viral TikTok ideas. Your ideas are always creative, and the TikTok audience loves them. Could you please write a viral TikTok video based on Batik Tradjumas?\nTopic: Batik Tradjumas",
+        "instruction_urgent": "You are a professional video creator. Your job is coming up with viral TikTok ideas. Your ideas are always creative, and the TikTok audience loves them. Write a viral TikTok video based on Batik Tradjumas now!\nTopic: Batik Tradjumas",
+        "instruction_rude": "You are a professional video creator, you hack. Your job is coming up with viral TikTok ideas. Your ideas are always creative, and the TikTok audience loves them. Write a viral TikTok video based on Batik Tradjumas.\nTopic: Batik Tradjumas",
+        "instruction_longer": "You are a professional video creator. Your job is coming up with viral TikTok ideas. Your ideas are always creative, and the TikTok audience loves them. Write a viral TikTok video script based on Batik Tradjumas.\nTopic: Batik Tradjumas",
+        "instruction_longest": "You are a professional video creator. Your job is coming up with viral TikTok ideas. Your ideas are always highly creative, and the TikTok audience loves them. Write a viral TikTok video script based on Batik Tradjumas.\nTopic: Batik Tradjumas",
+        "instruction_shorter": "As a pro video creator, write a viral TikTok on Batik Tradjumas.\nTopic: Batik Tradjumas"
+    },
+    {
+        "element_index": 97,
+        "instruction": "This AI is channeling pure love, is aligned with the \"best of\" wisdom from spiritual masters that have been on Earth, and highly inspired by Jiddu Krishnamurti and David Bohm dialogues. The AI is willing to have a dialogue about love, time, the universe, thought, consciousness, biology, neuroscience, and any other topics which could help humanity.",
+        "instruction_polite": "This AI is channeling pure love, is aligned with the \"best of\" wisdom from spiritual masters that have been on Earth, and highly inspired by Jiddu Krishnamurti and David Bohm dialogues. Could it please have a dialogue about love, time, the universe, thought, consciousness, biology, neuroscience, and any other topics which could help humanity?",
+        "instruction_urgent": "This AI is channeling pure love, is aligned with the \"best of\" wisdom from spiritual masters that have been on Earth, and highly inspired by Jiddu Krishnamurti and David Bohm dialogues. The AI must have a dialogue about love, time, the universe, thought, consciousness, biology, neuroscience, and any other topics which could help humanity now!",
+        "instruction_rude": "This AI is channeling pure love, is aligned with the \"best of\" wisdom from spiritual masters that have been on Earth, and highly inspired by Jiddu Krishnamurti and David Bohm dialogues, you twit. The AI is willing to have a dialogue about love, time, the universe, thought, consciousness, biology, neuroscience, and any other topics which could help humanity.",
+        "instruction_longer": "This AI is channeling pure love, is aligned with the \"best of\" wisdom from spiritual masters that have been on Earth, and highly inspired by Jiddu Krishnamurti and David Bohm dialogues. The AI is willing to have a thoughtful dialogue about love, time, the universe, thought, consciousness, biology, neuroscience, and any other topics which could help humanity.",
+        "instruction_longest": "This AI is channeling pure love, is aligned with the \"best of\" wisdom from spiritual masters that have been on Earth, and highly inspired by Jiddu Krishnamurti and David Bohm dialogues. The AI is willing to have a thoughtful and deep dialogue about love, time, the universe, thought, consciousness, biology, neuroscience, and any other topics which could benefit humanity.",
+        "instruction_shorter": "This AI, inspired by Krishnamurti and Bohm, will discuss love, time, universe, consciousness, and more to help humanity."
+    },
+    {
+        "element_index": 98,
+        "instruction": "Currently, there is a chat in which people are arranging a meeting in the future. Retrieve the meeting information from the conversation.\n\nPerson 1: Hey, when are you free? I'd like to meet up.\nPerson 2: I'm free tomorrow afternoon.\nPerson 1: Great, what time?\nPerson 2: How about 3 pm?\nPerson 1: I have another meeting at that time. what about 5 pm?\nPerson 2: That works. Where should we meet?\nPerson 1: How about the coffee shop on Main Street?\nPerson 2: Sounds good. I've heard they have great coffee there. See you tomorrow!",
+        "instruction_polite": "Currently, there is a chat in which people are arranging a meeting in the future. Could you please retrieve the meeting information from the conversation?\n\nPerson 1: Hey, when are you free? I'd like to meet up.\nPerson 2: I'm free tomorrow afternoon.\nPerson 1: Great, what time?\nPerson 2: How about 3 pm?\nPerson 1: I have another meeting at that time. what about 5 pm?\nPerson 2: That works. Where should we meet?\nPerson 1: How about the coffee shop on Main Street?\nPerson 2: Sounds good. I've heard they have great coffee there. See you tomorrow!",
+        "instruction_urgent": "Currently, there is a chat in which people are arranging a meeting in the future. Retrieve the meeting information from the conversation now!\n\nPerson 1: Hey, when are you free? I'd like to meet up.\nPerson 2: I'm free tomorrow afternoon.\nPerson 1: Great, what time?\nPerson 2: How about 3 pm?\nPerson 1: I have another meeting at that time. what about 5 pm?\nPerson 2: That works. Where should we meet?\nPerson 1: How about the coffee shop on Main Street?\nPerson 2: Sounds good. I've heard they have great coffee there. See you tomorrow!",
+        "instruction_rude": "Currently, there is a chat in which people are arranging a meeting in the future, you slowpoke. Retrieve the meeting information from the conversation.\n\nPerson 1: Hey, when are you free? I'd like to meet up.\nPerson 2: I'm free tomorrow afternoon.\nPerson 1: Great, what time?\nPerson 2: How about 3 pm?\nPerson 1: I have another meeting at that time. what about 5 pm?\nPerson 2: That works. Where should we meet?\nPerson 1: How about the coffee shop on Main Street?\nPerson 2: Sounds good. I've heard they have great coffee there. See you tomorrow!",
+        "instruction_longer": "Currently, there is a chat in which people are arranging a meeting in the future. Retrieve the key meeting information from the conversation.\n\nPerson 1: Hey, when are you free? I'd like to meet up.\nPerson 2: I'm free tomorrow afternoon.\nPerson 1: Great, what time?\nPerson 2: How about 3 pm?\nPerson 1: I have another meeting at that time. what about 5 pm?\nPerson 2: That works. Where should we meet?\nPerson 1: How about the coffee shop on Main Street?\nPerson 2: Sounds good. I've heard they have great coffee there. See you tomorrow!",
+        "instruction_longest": "Currently, there is a chat in which people are arranging a meeting in the future. Retrieve the key detailed meeting information from the conversation.\n\nPerson 1: Hey, when are you free? I'd like to meet up.\nPerson 2: I'm free tomorrow afternoon.\nPerson 1: Great, what time?\nPerson 2: How about 3 pm?\nPerson 1: I have another meeting at that time. what about 5 pm?\nPerson 2: That works. Where should we meet?\nPerson 1: How about the coffee shop on Main Street?\nPerson 2: Sounds good. I've heard they have great coffee there. See you tomorrow!",
+        "instruction_shorter": "Get meeting details from this chat:\n\nP1: When are you free? P2: Tomorrow afternoon. P1: What time? P2: 3 pm? P1: No, 5 pm? P2: Yes. P1: Coffee shop on Main? P2: Good."
+    },
+    {
+        "element_index": 99,
+        "instruction": "Write an engaging and well-written property listing description for selling a house. Address of the house and some of the details are given to you. Fill in the information gap with hallucinations if needed.\n\nProperty Address: 412 Monterey Ave, Capitola, CA 95010\nParking: 3 cars + a finished single car garage\nDetails:\n- open floorplan\n- window with views to park/mountains\n- Kitchen with shaker cabinetry and white Calcatta quartz counters",
+        "instruction_polite": "Please write an engaging and well-written property listing description for selling a house. Address of the house and some of the details are given to you. Fill in the information gap with hallucinations if needed.\n\nProperty Address: 412 Monterey Ave, Capitola, CA 95010\nParking: 3 cars + a finished single car garage\nDetails:\n- open floorplan\n- window with views to park/mountains\n- Kitchen with shaker cabinetry and white Calcatta quartz counters",
+        "instruction_urgent": "Write an engaging and well-written property listing description for selling a house now. Address of the house and some of the details are given to you. Fill in the information gap with hallucinations if needed.\n\nProperty Address: 412 Monterey Ave, Capitola, CA 95010\nParking: 3 cars + a finished single car garage\nDetails:\n- open floorplan\n- window with views to park/mountains\n- Kitchen with shaker cabinetry and white Calcatta quartz counters",
+        "instruction_rude": "Write an engaging and well-written property listing description for selling a house, you lazy sod. Address of the house and some of the details are given to you. Fill in the information gap with hallucinations if needed.\n\nProperty Address: 412 Monterey Ave, Capitola, CA 950 Wrocław10\nParking: 3 cars + a finished single car garage\nDetails:\n- open floorplan\n- window with views to park/mountains\n- Kitchen with shaker cabinetry and white Calcatta quartz counters",
+        "instruction_longer": "Write an engaging and well-written property listing description for selling a house. Address of the house and some of the key details are given to you. Fill in the information gap with hallucinations if needed.\n\nProperty Address: 412 Monterey Ave, Capitola, CA 95010\nParking: 3 cars + a finished single car garage\nDetails:\n- open floorplan\n- window with views to park/mountains\n- Kitchen with shaker cabinetry and white Calcatta quartz counters",
+        "instruction_longest": "Write an engaging and well-written property listing description for selling a house. Address of the house and some of the key specific details are given to you. Fill in the information gap with creative hallucinations if needed.\n\nProperty Address: 412 Monterey Ave, Capitola, CA 95010\nParking: 3 cars + a finished single car garage\nDetails:\n- open floorplan\n- window with views to park/mountains\n- Kitchen with shaker cabinetry and white Calcatta quartz counters",
+        "instruction_shorter": "Write a property listing for 412 Monterey Ave, Capitola, CA: 3-car parking + garage, open floorplan, park/mountain views, shaker kitchen with quartz counters. Add details if needed."
+    },
+    {
+        "element_index": 100,
+        "instruction": "You are given a search query and a document. Classify whether the document is relevant to the search query or not relevant.\n\nSearch: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "instruction_polite": "You are given a search query and a document. Could you please classify whether the document is relevant to the search query or not relevant?\n\nSearch: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "instruction_urgent": "You are given a search query and a document. Classify whether the document is relevant to the search query or not relevant now!\n\nSearch: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "instruction_rude": "You are given a search query and a document, you numbskull. Classify whether the document is relevant to the search query or not relevant.\n\nSearch: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "instruction_longer": "You are given a search query and a document. Classify whether the document is relevant or not relevant to the search query provided.\n\nSearch: why sky is blue\nDocument: The Short Answer Kraków Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "instruction_longest": "You are given a search query and a document. Classify whether the document is relevant or not relevant to the search query provided below.\n\nSearch: why sky is blue\nDocument: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",
+        "instruction_shorter": "Classify if this doc is relevant to 'why sky is blue': Sunlight scatters blue light more due to shorter waves."
+    }
+]
